@@ -1,0 +1,53 @@
+<header class="myHeader">
+    <div>
+        <div class="oneRow">
+            <div class="naziv">TOKYO 2020</div>
+        </div>
+        <div class="oneRow">
+            <div class="slogan">Faster, higher, stronger - Together</div>
+        </div>
+    </div>
+</header>
+<div class="nav-bar">
+    <a routerLink='/homepage'>Pocetna</a>
+    <a routerLink='/prijava'>Prijava</a>
+    <a routerLink='/promenaLozinke'>Promeni lozinku</a>
+</div>
+<div class="main">
+    <p class="register">Registracija</p>
+    <form class="form1">
+        <tr>
+            <td><input type="text" class="username" name="kor_ime" placeholder="Korisnicko ime" [(ngModel)]='kor_ime'></td>
+            <td><input type='text' class="zemlja" placeholder="Zemlja na engleskom" name='Zemlja' [(ngModel)]='zemlja'></td>
+        </tr>
+        <tr>
+            <td><input type='password' class="password" name='lozinka' placeholder="Lozinka" [(ngModel)]='lozinka'></td>
+            <td><input type='password' class="confirmPassword" name='potvrda_lozinke' placeholder="Potvrda lozinke" [(ngModel)]='potvrda_lozinke'></td>
+        </tr>
+        <tr>
+            <td><input type='text' class="ime" name='ime' placeholder="Ime" [(ngModel)]='ime'></td>
+            <td><input type='text' class="prezime" name='prezime' placeholder="Prezime" [(ngModel)]='prezime'></td>
+        </tr>
+        <tr>
+            <td><input type='text' class="mejl" placeholder="E-Mail" name='mejl' [(ngModel)]='mejl'></td>
+            <td>
+                <select class="tip" name='tip' [(ngModel)]='tip'>
+                    <option [ngValue]="undefined" selected disabled>Odaberi tip</option>
+                    <option value='Delegat'>Delegat</option>
+                    <option value='Vodja'>Vodja delegacije</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="register-btn" (click)='registracija()'>Registracija</button>
+            </td>
+        </tr>
+    </form>
+</div>
+<div *ngIf='poruka' class="greska">
+    {{poruka}}
+</div>
+<div class="myFooter">
+    Lazar Vulic - All rights reserved &copy;
+</div>
