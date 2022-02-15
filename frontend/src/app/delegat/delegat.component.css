@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hrStyle {
+    border: 3px solid #ff6c6c;
+    border-radius: 2px;
+}
+
+.oneRow {
+    display: inline-block;
+    margin: 5px;
+}
+
+.naziv {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.slogan {
+    text-align: right;
+    margin-left: 100px;
+    font-size: smaller;
+}
+
+.myHeader {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #539741e8;
+    background-image: url(/assets/smallLogo.png);
+    background-position: left;
+    background-size: 5%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(192, 187, 233);
+}
+
+li {
+    display: inline-block;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(199, 193, 255);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.myFooter {
+    position: relative;
+    bottom: -190px;
+    background-color: rgb(192, 187, 233);
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+}
+
+.button {
+    background-color: #ff6c6c;
+    border: black 1px solid;
+    color: black;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.greska {
+    padding: 5px;
+    width: 380px;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 37.2%;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(255, 131, 131, 0.342);
+    text-align: center;
+}
+
+.greskaDatum {
+    padding: 5px;
+    width: 40%;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(255, 131, 131, 0.342);
+    text-align: center;
+}
+
+.unesiRaspored,
+.unesiRezultat {
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.rasporedDelegiranja,
+.unesiRezultateZaTakmicenje {
+    border: 2px solid #6ec8e4;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tabelaRasporeda {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tabelaRasporeda td,
+.tabelaRasporeda th {
+    border: 1px solid rgb(176, 208, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.tabelaRasporeda tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.tabelaRasporeda tr:hover {
+    background-color: rgb(255, 224, 224);
+}
+
+.tabelaRasporeda th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff6c6c;
+    color: rgb(0, 0, 0);
+}
+
+.tabelaUnosRezultata {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid rgb(194, 194, 194);
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(230, 225, 225);
+}
+
+.tabelaUnosRezultata td,
+.tabelaUnosRezultata th {
+    padding: 2px;
+    text-align: left;
+}
+
+.unesiRezultatKruga,
+.tabelaRepesaz {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.unesiRezultatKruga td,
+.unesiRezultatKruga th,
+.tabelaRepesaz td,
+.tabelaRepesaz th {
+    border: 1px solid rgb(176, 208, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.unesiRezultatKruga tr:nth-child(even),
+.tabelaRepesaz tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.unesiRezultatKruga tr:hover,
+.tabelaRepesaz tr:hover {
+    background-color: rgb(255, 224, 224);
+}
+
+.unesiRezultatKruga th,
+.tabelaRepesaz th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff6c6c;
+    color: rgb(0, 0, 0);
+}
+
+.tenisTabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.tenisTabela td,
+.tenisTabela th {
+    border: 1px solid rgb(176, 208, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.tenisTabela tr:nth-child(even),
+.tenisTabela tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.tenisTabela tr:hover,
+.tenisTabela tr:hover {
+    background-color: rgb(255, 224, 224);
+}
+
+.tenisTabela th,
+.tenisTabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff6c6c;
+    color: rgb(0, 0, 0);
+}
+
+.centriraj1 {
+    display: block;
+    float: left;
+    padding-top: 12px;
+    padding-left: 18px;
+}
+
+.centriraj2 {
+    display: block;
+    float: left;
+    padding-top: 12px;
+    padding-left: 0px;
+}
+
+.rang1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.rang1 td,
+.rang1 th {
+    border: 1px solid rgb(176, 208, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.rang1 tr:nth-child(even),
+.rang1 tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.rang1 tr:hover,
+.rang1 tr:hover {
+    background-color: rgb(255, 224, 224);
+}
+
+.rang1 th,
+.rang1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff6c6c;
+    color: rgb(0, 0, 0);
+}

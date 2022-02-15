@@ -1,0 +1,256 @@
+<header class="myHeader">
+    <div>
+        <div class="oneRow">
+            <div class="naziv">TOKYO</div>
+        </div>
+        <div class="oneRow">
+            <div class="slogan">Faster, higher, stronger - Together</div>
+        </div>
+    </div>
+</header>
+<ul>
+    <li><a href="delegat#unosRasporeda">Unos rasporeda</a></li>
+    <li><a href="delegat#unosRezultata">Unos rezultata</a></li>
+    <li><a routerLink='/homepage'>Odjavi se</a></li>
+</ul>
+<h2 class="unesiRaspored" id="unosRasporeda">Unos rasporeda: </h2>
+<div class="rasporedDelegiranja">
+    <table class="tabelaRasporeda">
+        <tr>
+            <th>Sport</th>
+            <th>Disciplina</th>
+            <th>Pol</th>
+            <th>Tip</th>
+            <th>Format</th>
+            <th>Lokacije</th>
+            <th>Datum pocetka</th>
+            <th>Vreme pocetka</th>
+        </tr>
+        <tr *ngFor='let t of mojaTakmicenja; let i=index'>
+            <td>{{t.sport}}</td>
+            <td>{{t.disciplina}}</td>
+            <td>{{t.pol}}</td>
+            <td>{{t.tip}}</td>
+            <td>{{t.format}}</td>
+            <td>{{t.lokacije}}</td>
+            <td>
+                <div *ngIf='t.vremePocetka == "" ; else prikaz1'>
+                    <input type="date" name="datumPocetka" [(ngModel)]='datumPocetka[i]'>
+                </div>
+                <ng-template #prikaz1>
+                    {{t.datumPocetka}}
+                </ng-template>
+            </td>
+            <td>
+                <div *ngIf='t.vremePocetka == "" ; else prikaz2'>
+                    <input type="time" name="vremePocetka" [(ngModel)]='vremePocetka[i]'>
+                </div>
+                <ng-template #prikaz2>
+                    {{t.vremePocetka}}
+                </ng-template>
+            </td>
+            <td>
+                <div *ngIf='t.vremePocetka == "" ; else prikaz3'>
+                    <button class="button" (click)='dodajRaspored(t.sport, t.disciplina, t.pol, t.tip, t.lokacije, i)'>Dodaj raspored</button>
+                </div>
+                <ng-template #prikaz3>
+                    <span style="color: #ff6c6c;">
+                        Datum i vreme pocetka dodati!
+                    </span>
+                </ng-template>
+            </td>
+        </tr>
+    </table>
+    <div class="greskaDatum" *ngIf='porukaDatum'>
+        {{porukaDatum}}
+    </div>
+</div>
+<hr class="hrStyle">
+<h2 class="unesiRezultat" id="unosRezultata">Unesi rezultate: </h2>
+<div class="unesiRezultateZaTakmicenje">
+    <table class="tabelaUnosRezultata">
+        <tr>
+            <td>Unesi rezultate za:</td>
+            <td>
+                <select (change)='resetPromenljive()' style="width: 280px;" name='unosRezultata' [(ngModel)]='unosRezultata'>
+                    <option selected>Odaberi takmicenje</option>
+                    <option *ngFor='let mt of mojaTakmicenja'>{{mt.sport}}-{{mt.disciplina}}-{{mt.pol}}</option>
+                </select>
+            </td>
+            <td colspan='1'>
+                <button *ngIf='zavrsenoJe==0' class="button" (click)='vratiUcesnike()'>Prikazi takmicare</button>
+            </td>
+            <td colspan="1">
+                <button *ngIf='zavrsenoJe==0' class="button" (click)='pokreniAlgoritam()'>Prikazi kostur takmicenja</button>
+            </td>
+        </tr>
+    </table>
+    <table class="unesiRezultatKruga" *ngIf='traziSeTenis == 0 && prikaziRezultate == 0 && nemaIspis==0'>
+        <tr *ngIf='sportistiNaTakmicenju.length > 0'>
+            <th style="text-align: center;">Ime i prezime</th>
+            <th style="text-align: center;">Zemlja</th>
+            <th colspan="2"></th>
+        </tr>
+        <tr *ngFor='let s of sportistiNaTakmicenju; let j=index'>
+            <td style="text-align: center;">{{s.imeIPrezime}}</td>
+            <td style="text-align: center;">{{s.nacionalnost}}</td>
+            <td>
+                <div *ngIf='zavrsenUnosZaTakmicara[j] == 0'>
+                    <input type="text" name="rezultat" [(ngModel)]='rezultat[j]'>
+                </div>
+                <div *ngIf='zavrsenUnosZaTakmicara[j] == 1'>
+                    {{rezultatiPoTakmicaru[j]}}
+                </div>
+            </td>
+            <td>
+                <div *ngIf='zavrsenUnosZaTakmicara[j] == 0'>
+                    <button class="button" (click)='unesiRezultat(s.idSportiste, imeSporta, disciplinaSporta, polZaSport, s.imeIPrezime, s.nacionalnost, j)'>Unesi rezultat</button>
+                </div>
+                <div *ngIf='zavrsenUnosZaTakmicara[j] == 1'>
+                    Sve runde unete!
+                </div>
+            </td>
+        </tr>
+    </table>
+    <button *ngIf='zavrsenoJe==0' style="margin-left: -633px;" class="button" (click)='zavrsi(imeSporta, disciplinaSporta, polZaSport)'>Zavrsi takmicenje</button>
+    <div class="greska" *ngIf='zavrsenoJe==1'>
+        Takmicenje je vec zavrseno!
+    </div>
+    <table class="tabelaRepesaz" *ngIf='prikaziRezultate == 1 && zavrsenRepesaz == 0'>
+        <thead style="font-weight: bold; text-decoration: underline; margin: 20px;">Unesite repesaz za: </thead>
+        <tr *ngIf='rezultatiRepesazFront.length > 0'>
+            <th style="text-align: center;">Ime i prezime</th>
+            <th style="text-align: center;">Zemlja</th>
+            <th *ngIf='zavrsenRepesaz==0' colspan="2"></th>
+        </tr>
+        <tr *ngFor='let r of rezultatiRepesazFront; let m=index'>
+            <td style="text-align: center;">{{r.takmicarPersonalizovan.imeIPrezime}}</td>
+            <td style="text-align: center;">{{r.takmicarPersonalizovan.nacionalnost}}</td>
+            <td *ngIf='zavrsenRepesaz==0'>
+                <input type="text" name="rezultat" [(ngModel)]='repesazi[m]'>
+            </td>
+            <td *ngIf='zavrsenRepesaz==0'>
+                <button class="button" (click)='unesiRepesaz(r.takmicar, imeSporta, disciplinaSporta, polZaSport, r.takmicarPersonalizovan.nacionalnost, m)'>Unesi repesaz</button>
+            </td>
+        </tr>
+        <tr *ngIf='zavrsenRepesaz == 0'>
+            <td colspan="4">
+                <button class="button" style="width: 300px;" (click)='zavrsiRepesaz(imeSporta, polZaSport, disciplinaSporta)'>Zavrsi repesaz</button>
+            </td>
+        </tr>
+    </table>
+    <table class="tenisTabela" *ngIf='traziSeTenis == 1'>
+        <tr *ngIf='mecevi.length> 0'>
+            <th>Runda</th>
+            <th>IdA</th>
+            <th>SportistaA</th>
+            <th>Zemlja</th>
+            <th>IdB</th>
+            <th>SportistaB</th>
+            <th>Zemlja</th>
+            <th colspan="2">Rezultat</th>
+        </tr>
+        <tr *ngFor='let m of mecevi; let k=index'>
+            <td style="text-align: center; width: 20%;">{{m.tip}}</td>
+            <td style="text-align: center; width: 5%;">{{m.mec.sportistaA.idSportiste}}</td>
+            <td style="text-align: center; width: 15%;">{{m.mec.sportistaA.imeIPrezime}}</td>
+            <td style="text-align: center; width: 10%;">{{m.mec.sportistaA.nacionalnost}}</td>
+            <td style="text-align: center; width: 5%;">{{m.mec.sportistaB.idSportiste}}</td>
+            <td style="text-align: center; width: 15%;">{{m.mec.sportistaB.imeIPrezime}}</td>
+            <td style="text-align: center; width: 10%;">{{m.mec.sportistaB.nacionalnost}}</td>
+            <td>
+                <div *ngIf='m.zavrsen == 0'>
+                    <input width="20px" type="number" step="1" min="0" max="2" name="rezultatA" [(ngModel)]='rezultatMecaA[k]'>
+                </div>
+                <div *ngIf='m.zavrsen == 1'>
+                    {{m.rezultatA}}
+                </div>
+            </td>
+            <td>
+                <div *ngIf='m.zavrsen == 0'>
+                    <input width="20px" type="number" step="1" min="0" max="2" name="rezultatB" [(ngModel)]='rezultatMecaB[k]'>
+                </div>
+                <div *ngIf='m.zavrsen == 1'>
+                    {{m.rezultatB}}
+                </div>
+            </td>
+            <td *ngIf='m.zavrsen == 0;'>
+                <button class="button" style="width: 200px;" (click)='dodajRezultatMeca(m, k)'>Unesi rezultat</button>
+            </td>
+        </tr>
+        <tr *ngIf='zavrsenTenis==0; else nesto1'>
+            <td colspan="9">
+                <button class="button" (click)='narednaRunda(imeSporta, polZaSport, disciplinaSporta, takmicari.length)'>Finish</button>
+            </td>
+        </tr>
+    </table>
+    <ng-template #nesto1>
+        <label style="color: red;">Takmicenje je zavrseno!</label>
+    </ng-template>
+    <div class="greska" *ngIf='porukaUnos'>
+        {{porukaUnos}}
+    </div>
+    <div *ngIf='zavrsenTenis == 1'>
+        <table class="rang1">
+            <tr>
+                <td>1.mesto</td>
+                <td>{{pobednikSportista.imeIPrezime}}</td>
+                <td>{{pobednikSportista.nacionalnost}}</td>
+            </tr>
+            <tr>
+                <td>2.mesto</td>
+                <td>{{drugoMestoSportista.imeIPrezime}}</td>
+                <td>{{drugoMestoSportista.nacionalnost}}</td>
+            </tr>
+            <tr>
+                <td>3.mesto</td>
+                <td>{{treceMestoSportista.imeIPrezime}}</td>
+                <td>{{treceMestoSportista.nacionalnost}}</td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf='zavrseno == 1 && pobednik'>
+        <table class="rang1">
+            <tr>
+                <td>1.mesto</td>
+                <td>{{pobednik.takmicarPersonalizovan.imeIPrezime}}</td>
+                <td>{{pobednik.takmicarPersonalizovan.nacionalnost}}</td>
+                <td>{{pobednik.result}}</td>
+            </tr>
+            <tr>
+                <td>2.mesto</td>
+                <td>{{drugoMesto.takmicarPersonalizovan.imeIPrezime}}</td>
+                <td>{{drugoMesto.takmicarPersonalizovan.nacionalnost}}</td>
+                <td>{{drugoMesto.result}}</td>
+            </tr>
+            <tr>
+                <td>3.mesto</td>
+                <td>{{treceMesto.takmicarPersonalizovan.imeIPrezime}}</td>
+                <td>{{treceMesto.takmicarPersonalizovan.nacionalnost}}</td>
+                <td>{{treceMesto.result}}</td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf='zavrsenRepesaz == 1 && prikaziRezultate == 1'>
+        <table class="rang1">
+            <tr>
+                <td>1.mesto</td>
+                <td>{{pobednikSportista.imeIPrezime}}</td>
+                <td>{{pobednikSportista.nacionalnost}}</td>
+            </tr>
+            <tr>
+                <td>2.mesto</td>
+                <td>{{drugoMestoSportista.imeIPrezime}}</td>
+                <td>{{drugoMestoSportista.nacionalnost}}</td>
+            </tr>
+            <tr>
+                <td>3.mesto</td>
+                <td>{{treceMestoSportista.imeIPrezime}}</td>
+                <td>{{treceMestoSportista.nacionalnost}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="myFooter">
+    Lazar Vulic - All rights reserved &copy;
+</div>
