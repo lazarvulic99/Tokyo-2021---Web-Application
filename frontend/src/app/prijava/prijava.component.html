@@ -1,0 +1,35 @@
+<header class="myHeader">
+    <div>
+        <div class="oneRow">
+            <div class="naziv">TOKYO 2020</div>
+        </div>
+        <div class="oneRow">
+            <div class="slogan">Faster, higher, stronger - Together</div>
+        </div>
+    </div>
+</header>
+<div class="nav-bar">
+    <a routerLink='/homepage'>Pocetna</a>
+    <a routerLink='/promenaLozinke'>Promena lozinke</a>
+    <a routerLink='/registracija'>Registracija</a>
+</div>
+<div class="main">
+    <p class="prijava">Prijava</p>
+    <form class="form1">
+        <input type='text' class="username" name='kor_ime' placeholder="Username" [(ngModel)]='kor_ime'>
+        <input type='password' class="password" name='lozinka' placeholder="Password" [(ngModel)]='lozinka'>
+        <select name='tip' class="tip" [(ngModel)]='tip'>
+            <option [ngValue]="undefined" selected disabled>Odaberi tip</option>
+            <option value='Organizator'>Organizator</option>
+            <option value="Delegat">Delegat</option>
+            <option value='Vodja'>Vodja delegacije</option>
+        </select>
+        <button class="prijava-btn" (click)='prijava()'>Prijava</button>
+    </form>
+</div>
+<div *ngIf='poruka' class="greska">
+    {{poruka}}
+</div>
+<div class="myFooter">
+    Lazar Vulic - All rights reserved &copy;
+</div>
