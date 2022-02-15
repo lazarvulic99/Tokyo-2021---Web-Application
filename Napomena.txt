@@ -1,0 +1,3 @@
+Projekat je 'gradjen' na osnovu start (Pocetno stanje) sa sajta predmeta.
+
+=> https://rti.etf.bg.ac.rs/rti/ir4pia/ => Materijali i literatura => MEAN Stack => Pocetno stanje[zip Start]

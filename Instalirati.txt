@@ -1,0 +1,2 @@
+Za paginaciju instalirati:
+	npm i ngx-pagination => pozicionirati se u frontend/frontend/app
