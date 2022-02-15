@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tip {
+    text-align-last: center;
+}
+
+.oneRow {
+    display: inline-block;
+    margin: 5px;
+}
+
+.naziv {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.slogan {
+    text-align: right;
+    margin-left: 100px;
+    font-size: smaller;
+}
+
+.myHeader {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #539741e8;
+    background-image: url(/assets/smallLogo.png);
+    background-position: left;
+    background-size: 5%;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    padding: 0px;
+    left: 0;
+    width: 100%;
+    top: 70px;
+    position: fixed;
+    color: #fff6f6;
+    text-align: center;
+    background: rgb(154, 144, 238);
+}
+
+.nav-bar a {
+    color: #fff6f6;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: inline-table;
+    padding: 15px 15px;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(163, 153, 255);
+    color: black;
+}
+
+.myFooter {
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: #fff6f6;
+    text-align: center;
+    background: rgb(130, 116, 255);
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 360px;
+    margin: 8em auto;
+    margin-bottom: 50px;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(79, 138, 58, 0.14);
+}
+
+.passwordChange {
+    padding-top: 40px;
+    color: #82ee29;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.username {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 0, 0, 0.02);
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.password {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 0, 0, 0.02);
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.newPassword {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 0, 0, 0.02);
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.username:focus,
+.password:focus,
+.newPassword:focus {
+    border: 2.5px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+form.form1 {
+    padding-top: 45px;
+}
+
+.passwordChange-btn {
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #82ee29, #aee978);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 5em;
+    padding-top: 10px;
+    margin-left: 30%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.greska {
+    padding: 5px;
+    width: 380px;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 37.2%;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(255, 131, 131, 0.342);
+    text-align: center;
+}
