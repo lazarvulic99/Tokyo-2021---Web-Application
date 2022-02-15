@@ -1,0 +1,1082 @@
+/* 1 */
+{
+    "_id" : ObjectId("6116719542844e43278cd05d"),
+    "ranking" : 2,
+    "zemlja" : "United States of America",
+    "brojZlatnih" : 39,
+    "brojSrebrnih" : 41,
+    "brojBronzanih" : 33,
+    "ukupno" : 113
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6116719542844e43278cd060"),
+    "ranking" : 4,
+    "zemlja" : "People's Republic of China",
+    "brojZlatnih" : 38,
+    "brojSrebrnih" : 32,
+    "brojBronzanih" : 18,
+    "ukupno" : 88
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6116719542844e43278cd063"),
+    "ranking" : 7,
+    "zemlja" : "Japan",
+    "brojZlatnih" : 27,
+    "brojSrebrnih" : 14,
+    "brojBronzanih" : 17,
+    "ukupno" : 58
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6116719542844e43278cd066"),
+    "ranking" : 6,
+    "zemlja" : "Great Britain",
+    "brojZlatnih" : 22,
+    "brojSrebrnih" : 21,
+    "brojBronzanih" : 22,
+    "ukupno" : 65
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6116719542844e43278cd069"),
+    "ranking" : 1,
+    "zemlja" : "ROC",
+    "brojZlatnih" : 34,
+    "brojSrebrnih" : 50,
+    "brojBronzanih" : 57,
+    "ukupno" : 141
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6116719542844e43278cd06c"),
+    "ranking" : 8,
+    "zemlja" : "Australia",
+    "brojZlatnih" : 17,
+    "brojSrebrnih" : 7,
+    "brojBronzanih" : 22,
+    "ukupno" : 46
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6116719542844e43278cd06f"),
+    "ranking" : 11,
+    "zemlja" : "Netherlands",
+    "brojZlatnih" : 10,
+    "brojSrebrnih" : 12,
+    "brojBronzanih" : 14,
+    "ukupno" : 36
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6116719542844e43278cd072"),
+    "ranking" : 12,
+    "zemlja" : "France",
+    "brojZlatnih" : 10,
+    "brojSrebrnih" : 12,
+    "brojBronzanih" : 11,
+    "ukupno" : 33
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6116719542844e43278cd075"),
+    "ranking" : 9,
+    "zemlja" : "Germany",
+    "brojZlatnih" : 10,
+    "brojSrebrnih" : 11,
+    "brojBronzanih" : 16,
+    "ukupno" : 37
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6116719542844e43278cd078"),
+    "ranking" : 3,
+    "zemlja" : "Italy",
+    "brojZlatnih" : 31,
+    "brojSrebrnih" : 25,
+    "brojBronzanih" : 37,
+    "ukupno" : 93
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6116719542844e43278cd07b"),
+    "ranking" : 14,
+    "zemlja" : "Canada",
+    "brojZlatnih" : 7,
+    "brojSrebrnih" : 6,
+    "brojBronzanih" : 11,
+    "ukupno" : 24
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6116719542844e43278cd07e"),
+    "ranking" : 15,
+    "zemlja" : "Brazil",
+    "brojZlatnih" : 7,
+    "brojSrebrnih" : 6,
+    "brojBronzanih" : 8,
+    "ukupno" : 21
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6116719542844e43278cd081"),
+    "ranking" : 16,
+    "zemlja" : "New Zealand",
+    "brojZlatnih" : 7,
+    "brojSrebrnih" : 6,
+    "brojBronzanih" : 7,
+    "ukupno" : 20
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6116719542844e43278cd084"),
+    "ranking" : 22,
+    "zemlja" : "Cuba",
+    "brojZlatnih" : 7,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 5,
+    "ukupno" : 15
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6116719542844e43278cd087"),
+    "ranking" : 13,
+    "zemlja" : "Hungary",
+    "brojZlatnih" : 9,
+    "brojSrebrnih" : 8,
+    "brojBronzanih" : 9,
+    "ukupno" : 26
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6116719542844e43278cd08a"),
+    "ranking" : 16,
+    "zemlja" : "Republic of Korea",
+    "brojZlatnih" : 6,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 10,
+    "ukupno" : 20
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6116719542844e43278cd08d"),
+    "ranking" : 24,
+    "zemlja" : "Poland",
+    "brojZlatnih" : 4,
+    "brojSrebrnih" : 5,
+    "brojBronzanih" : 5,
+    "ukupno" : 14
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6116719542844e43278cd090"),
+    "ranking" : 28,
+    "zemlja" : "Czech Republic",
+    "brojZlatnih" : 4,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 3,
+    "ukupno" : 11
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6116719542844e43278cd093"),
+    "ranking" : 29,
+    "zemlja" : "Kenya",
+    "brojZlatnih" : 4,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 2,
+    "ukupno" : 10
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6116719542844e43278cd096"),
+    "ranking" : 33,
+    "zemlja" : "Norway",
+    "brojZlatnih" : 4,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 2,
+    "ukupno" : 8
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6116719542844e43278cd099"),
+    "ranking" : 30,
+    "zemlja" : "Jamaica",
+    "brojZlatnih" : 4,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 4,
+    "ukupno" : 9
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6116719542844e43278cd09c"),
+    "ranking" : 5,
+    "zemlja" : "Spain",
+    "brojZlatnih" : 18,
+    "brojSrebrnih" : 38,
+    "brojBronzanih" : 18,
+    "ukupno" : 74
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6116719542844e43278cd09f"),
+    "ranking" : 30,
+    "zemlja" : "Sweden",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 6,
+    "brojBronzanih" : 0,
+    "ukupno" : 9
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0a2"),
+    "ranking" : 25,
+    "zemlja" : "Switzerland",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 6,
+    "ukupno" : 13
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0a5"),
+    "ranking" : 22,
+    "zemlja" : "Denmark",
+    "brojZlatnih" : 5,
+    "brojSrebrnih" : 5,
+    "brojBronzanih" : 5,
+    "ukupno" : 15
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0a8"),
+    "ranking" : 33,
+    "zemlja" : "Croatia",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 2,
+    "ukupno" : 8
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ab"),
+    "ranking" : 37,
+    "zemlja" : "Islamic Republic of Iran",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 2,
+    "ukupno" : 7
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ae"),
+    "ranking" : 9,
+    "zemlja" : "Serbia",
+    "brojZlatnih" : 22,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 11,
+    "ukupno" : 37
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0b1"),
+    "ranking" : 37,
+    "zemlja" : "Belgium",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 3,
+    "ukupno" : 7
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0b4"),
+    "ranking" : 41,
+    "zemlja" : "Bulgaria",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 6
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0b7"),
+    "ranking" : 46,
+    "zemlja" : "Slovenia",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 5
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ba"),
+    "ranking" : 46,
+    "zemlja" : "Uzbekistan",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 2,
+    "ukupno" : 5
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0bd"),
+    "ranking" : 33,
+    "zemlja" : "Georgia",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 5,
+    "brojBronzanih" : 1,
+    "ukupno" : 8
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0c0"),
+    "ranking" : 27,
+    "zemlja" : "Chinese Taipei",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 6,
+    "ukupno" : 12
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0c3"),
+    "ranking" : 25,
+    "zemlja" : "Turkey",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 9,
+    "ukupno" : 13
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0c6"),
+    "ranking" : 51,
+    "zemlja" : "Greece",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 4
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0c9"),
+    "ranking" : 51,
+    "zemlja" : "Uganda",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 4
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0cc"),
+    "ranking" : 64,
+    "zemlja" : "Ecuador",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 3
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0cf"),
+    "ranking" : 21,
+    "zemlja" : "Ireland",
+    "brojZlatnih" : 12,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 4,
+    "ukupno" : 17
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0d2"),
+    "ranking" : 51,
+    "zemlja" : "Israel",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 2,
+    "ukupno" : 4
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0d5"),
+    "ranking" : 64,
+    "zemlja" : "Qatar",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 3
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0d8"),
+    "ranking" : 70,
+    "zemlja" : "Bahamas",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 0,
+    "ukupno" : 2
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0db"),
+    "ranking" : 70,
+    "zemlja" : "Kosovo",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 0,
+    "ukupno" : 2
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0de"),
+    "ranking" : 18,
+    "zemlja" : "Ukraine",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 6,
+    "brojBronzanih" : 12,
+    "ukupno" : 19
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0e1"),
+    "ranking" : 37,
+    "zemlja" : "Belarus",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 3,
+    "ukupno" : 7
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0e4"),
+    "ranking" : 51,
+    "zemlja" : "Romania",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 0,
+    "ukupno" : 4
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0e7"),
+    "ranking" : 51,
+    "zemlja" : "Venezuela",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 0,
+    "ukupno" : 4
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ea"),
+    "ranking" : 18,
+    "zemlja" : "India",
+    "brojZlatnih" : 5,
+    "brojSrebrnih" : 5,
+    "brojBronzanih" : 9,
+    "ukupno" : 19
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ed"),
+    "ranking" : 41,
+    "zemlja" : "Hong Kong, China",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 3,
+    "ukupno" : 6
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0f0"),
+    "ranking" : 51,
+    "zemlja" : "Philippines",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 1,
+    "ukupno" : 4
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0f3"),
+    "ranking" : 51,
+    "zemlja" : "Slovakia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 1,
+    "ukupno" : 4
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0f6"),
+    "ranking" : 64,
+    "zemlja" : "South Africa",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 0,
+    "ukupno" : 3
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0f9"),
+    "ranking" : 18,
+    "zemlja" : "Austria",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 9,
+    "brojBronzanih" : 9,
+    "ukupno" : 19
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0fc"),
+    "ranking" : 41,
+    "zemlja" : "Egypt",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 4,
+    "ukupno" : 6
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("6116719542844e43278cd0ff"),
+    "ranking" : 46,
+    "zemlja" : "Indonesia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 3,
+    "ukupno" : 5
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("6116719542844e43278cd102"),
+    "ranking" : 51,
+    "zemlja" : "Ethiopia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 4
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("6116719542844e43278cd105"),
+    "ranking" : 51,
+    "zemlja" : "Portugal",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 4
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("6116719542844e43278cd108"),
+    "ranking" : 70,
+    "zemlja" : "Tunisia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 2
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("6116719542844e43278cd10b"),
+    "ranking" : 70,
+    "zemlja" : "Estonia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("6116719542844e43278cd10e"),
+    "ranking" : 70,
+    "zemlja" : "Fiji",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("6116719542844e43278cd111"),
+    "ranking" : 70,
+    "zemlja" : "Latvia",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("6116719542844e43278cd114"),
+    "ranking" : 70,
+    "zemlja" : "Thailand",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("6116719542844e43278cd117"),
+    "ranking" : 81,
+    "zemlja" : "Bermuda",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("6116719542844e43278cd11a"),
+    "ranking" : 81,
+    "zemlja" : "Morocco",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("6116719542844e43278cd11d"),
+    "ranking" : 81,
+    "zemlja" : "Puerto Rico",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("6116719542844e43278cd120"),
+    "ranking" : 46,
+    "zemlja" : "Colombia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 1,
+    "ukupno" : 5
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("6116719542844e43278cd123"),
+    "ranking" : 37,
+    "zemlja" : "Azerbaijan",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 4,
+    "ukupno" : 7
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("6116719542844e43278cd126"),
+    "ranking" : 46,
+    "zemlja" : "Dominican Republic",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 2,
+    "ukupno" : 5
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("6116719542844e43278cd129"),
+    "ranking" : 51,
+    "zemlja" : "Armenia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 2,
+    "ukupno" : 4
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("6116719542844e43278cd12c"),
+    "ranking" : 64,
+    "zemlja" : "Kyrgyzstan",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 2,
+    "brojBronzanih" : 1,
+    "ukupno" : 3
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("6116719542844e43278cd12f"),
+    "ranking" : 51,
+    "zemlja" : "Mongolia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 3,
+    "ukupno" : 4
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("6116719542844e43278cd132"),
+    "ranking" : 64,
+    "zemlja" : "Argentina",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 3
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("6116719542844e43278cd135"),
+    "ranking" : 64,
+    "zemlja" : "San Marino",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 3
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("6116719542844e43278cd138"),
+    "ranking" : 70,
+    "zemlja" : "Jordan",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("6116719542844e43278cd13b"),
+    "ranking" : 70,
+    "zemlja" : "Malaysia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("6116719542844e43278cd13e"),
+    "ranking" : 70,
+    "zemlja" : "Nigeria",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 1,
+    "ukupno" : 2
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("6116719542844e43278cd141"),
+    "ranking" : 81,
+    "zemlja" : "Bahrain",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("6116719542844e43278cd144"),
+    "ranking" : 81,
+    "zemlja" : "Saudi Arabia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("6116719542844e43278cd147"),
+    "ranking" : 81,
+    "zemlja" : "Lithuania",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("6116719542844e43278cd14a"),
+    "ranking" : 81,
+    "zemlja" : "North Macedonia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("6116719542844e43278cd14d"),
+    "ranking" : 81,
+    "zemlja" : "Namibia",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("6116719542844e43278cd150"),
+    "ranking" : 81,
+    "zemlja" : "Turkmenistan",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 0,
+    "ukupno" : 1
+}
+
+/* 83 */
+{
+    "_id" : ObjectId("6116719542844e43278cd153"),
+    "ranking" : 33,
+    "zemlja" : "Kazakhstan",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 8,
+    "ukupno" : 8
+}
+
+/* 84 */
+{
+    "_id" : ObjectId("6116719542844e43278cd156"),
+    "ranking" : 51,
+    "zemlja" : "Mexico",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 4,
+    "ukupno" : 4
+}
+
+/* 85 */
+{
+    "_id" : ObjectId("6116719542844e43278cd159"),
+    "ranking" : 70,
+    "zemlja" : "Finland",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 2,
+    "ukupno" : 2
+}
+
+/* 86 */
+{
+    "_id" : ObjectId("6116719542844e43278cd15c"),
+    "ranking" : 81,
+    "zemlja" : "Botswana",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 87 */
+{
+    "_id" : ObjectId("6116719542844e43278cd15f"),
+    "ranking" : 81,
+    "zemlja" : "Burkina Faso",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 88 */
+{
+    "_id" : ObjectId("6116719542844e43278cd162"),
+    "ranking" : 81,
+    "zemlja" : "Cote d'Ivoire",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 89 */
+{
+    "_id" : ObjectId("6116719542844e43278cd165"),
+    "ranking" : 81,
+    "zemlja" : "Ghana",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 90 */
+{
+    "_id" : ObjectId("6116719542844e43278cd168"),
+    "ranking" : 81,
+    "zemlja" : "Grenada",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 91 */
+{
+    "_id" : ObjectId("6116719542844e43278cd16b"),
+    "ranking" : 81,
+    "zemlja" : "Kuwait",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 92 */
+{
+    "_id" : ObjectId("6116719542844e43278cd16e"),
+    "ranking" : 81,
+    "zemlja" : "Republic of Moldova",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 93 */
+{
+    "_id" : ObjectId("6116719542844e43278cd171"),
+    "ranking" : 81,
+    "zemlja" : "Syrian Arab Republic",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1
+}
+
+/* 94 */
+{
+    "_id" : ObjectId("6128ecea4082be4b10df889e"),
+    "ranking" : 81,
+    "zemlja" : "Montenegro",
+    "brojZlatnih" : 0,
+    "brojSrebrnih" : 0,
+    "brojBronzanih" : 1,
+    "ukupno" : 1,
+    "__v" : 0
+}
+
+/* 95 */
+{
+    "_id" : ObjectId("6128eed14082be4b10df88a7"),
+    "ranking" : 51,
+    "zemlja" : "Bosnia and Herzegovina",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 2,
+    "ukupno" : 4,
+    "__v" : 0
+}
+
+/* 96 */
+{
+    "_id" : ObjectId("6128eed14082be4b10df88a8"),
+    "ranking" : 30,
+    "zemlja" : "Albania",
+    "brojZlatnih" : 3,
+    "brojSrebrnih" : 3,
+    "brojBronzanih" : 3,
+    "ukupno" : 9,
+    "__v" : 0
+}
+
+/* 97 */
+{
+    "_id" : ObjectId("612baff21074084298900bac"),
+    "ranking" : 41,
+    "zemlja" : "Nepal",
+    "brojZlatnih" : 2,
+    "brojSrebrnih" : 1,
+    "brojBronzanih" : 3,
+    "ukupno" : 6,
+    "__v" : 0
+}
+
+/* 98 */
+{
+    "_id" : ObjectId("612baff21074084298900bad"),
+    "ranking" : 41,
+    "zemlja" : "Vanuatu",
+    "brojZlatnih" : 1,
+    "brojSrebrnih" : 4,
+    "brojBronzanih" : 1,
+    "ukupno" : 6,
+    "__v" : 0
+}

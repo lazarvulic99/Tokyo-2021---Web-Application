@@ -1,0 +1,1056 @@
+/* 1 */
+{
+    "_id" : ObjectId("6113c3f942844e43278c70f3"),
+    "idSportiste" : 1,
+    "imeIPrezime" : "Novak Djokovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Tenis",
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "medalja" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61154609f2196657e01bafc8"),
+    "discipline" : [ 
+        "100 metara trcanje", 
+        "stafetno trcanje 100", 
+        "200 metara trcanje", 
+        "stafetno trcanje 400", 
+        "400 metara trcanje", 
+        "maraton"
+    ],
+    "idSportiste" : 2,
+    "imeIPrezime" : "Novak Novkovic",
+    "pol" : "M",
+    "nacionalnost" : "Albania",
+    "sport" : "Atletika",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611548aa1b82e802904c6aa6"),
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "idSportiste" : 3,
+    "imeIPrezime" : "Vesna Vulic",
+    "pol" : "Z",
+    "nacionalnost" : "Serbia",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("611587c924480b1c3c3adaf5"),
+    "discipline" : [ 
+        "Odbojka"
+    ],
+    "idSportiste" : 4,
+    "imeIPrezime" : "Stefanos Tsitsipas",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Odbojka",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2a9"),
+    "idSportiste" : 5,
+    "imeIPrezime" : "Kevin Durant",
+    "pol" : "M",
+    "nacionalnost" : "United States of America",
+    "sport" : "Kosarka",
+    "discipline" : [ 
+        "Kosarka"
+    ],
+    "medalja" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2ac"),
+    "idSportiste" : 6,
+    "imeIPrezime" : "Kevin Love",
+    "pol" : "M",
+    "nacionalnost" : "United States of America",
+    "sport" : "Kosarka",
+    "discipline" : [ 
+        "Kosarka"
+    ],
+    "medalja" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2af"),
+    "idSportiste" : 7,
+    "imeIPrezime" : "Derrick Rose",
+    "pol" : "M",
+    "nacionalnost" : "United States of America",
+    "sport" : "Kosarka",
+    "discipline" : [ 
+        "Kosarka"
+    ],
+    "medalja" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2b2"),
+    "idSportiste" : 8,
+    "imeIPrezime" : "Ben House",
+    "pol" : "M",
+    "nacionalnost" : "Ireland",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2b5"),
+    "idSportiste" : 9,
+    "imeIPrezime" : "Hodi Horsens",
+    "pol" : "M",
+    "nacionalnost" : "Denmark",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2b8"),
+    "idSportiste" : 10,
+    "imeIPrezime" : "Joni Beshuli",
+    "pol" : "M",
+    "nacionalnost" : "Albania",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2bb"),
+    "idSportiste" : 11,
+    "imeIPrezime" : "Davud Vesnovic",
+    "pol" : "M",
+    "nacionalnost" : "Bosnia and Herzegovina",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2be"),
+    "idSportiste" : 12,
+    "imeIPrezime" : "Prokop Bulgarovic",
+    "pol" : "M",
+    "nacionalnost" : "Bulgaria",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2c1"),
+    "idSportiste" : 13,
+    "imeIPrezime" : "Sejlos Siladji",
+    "pol" : "M",
+    "nacionalnost" : "Hungary",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2c4"),
+    "idSportiste" : 14,
+    "imeIPrezime" : "Boban Boskovic",
+    "pol" : "M",
+    "nacionalnost" : "Montenegro",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6116f28842844e43278cf2c7"),
+    "idSportiste" : 15,
+    "imeIPrezime" : "Laslo Hussensteil",
+    "pol" : "M",
+    "nacionalnost" : "Austria",
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "medalja" : 1
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fd6"),
+    "idSportiste" : 16,
+    "imeIPrezime" : "Pedro Bolter",
+    "pol" : "M",
+    "nacionalnost" : "Bahamas",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fd9"),
+    "idSportiste" : 17,
+    "imeIPrezime" : "Domingo Pedroza",
+    "pol" : "M",
+    "nacionalnost" : "Cuba",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fdc"),
+    "idSportiste" : 18,
+    "imeIPrezime" : "Michael Bombora",
+    "pol" : "M",
+    "nacionalnost" : "Kenya",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fdf"),
+    "idSportiste" : 19,
+    "imeIPrezime" : "Echuewe Echo",
+    "pol" : "M",
+    "nacionalnost" : "Nigeria",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fe2"),
+    "idSportiste" : 20,
+    "imeIPrezime" : "Martino Popatelli",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fe5"),
+    "idSportiste" : 21,
+    "imeIPrezime" : "Yousouff DeGonco",
+    "pol" : "M",
+    "nacionalnost" : "Libya",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0fe8"),
+    "idSportiste" : 22,
+    "imeIPrezime" : "Bambin Boloomba",
+    "pol" : "M",
+    "nacionalnost" : "Togo",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6117a66042844e43278d0feb"),
+    "idSportiste" : 23,
+    "imeIPrezime" : "Justin Justinian",
+    "pol" : "M",
+    "nacionalnost" : "Canada",
+    "sport" : "Atletika",
+    "discipline" : [ 
+        "100 metara trcanje"
+    ],
+    "medalja" : 0
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6117abafa274c5479c2221fd"),
+    "discipline" : [ 
+        "Kosarka"
+    ],
+    "idSportiste" : 24,
+    "imeIPrezime" : "Norman Kurbajev",
+    "pol" : "M",
+    "nacionalnost" : "Azerbaijan",
+    "sport" : "Kosarka",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6117af5ea274c5479c2221fe"),
+    "discipline" : [ 
+        "stafetno trcanje 100", 
+        "20km brzo hodanje"
+    ],
+    "idSportiste" : 25,
+    "imeIPrezime" : "Pedja Nikolic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Atletika",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6117b4770d2e9d14c443f7f9"),
+    "discipline" : [ 
+        "200 metara trcanje", 
+        "5000 metara trcanje"
+    ],
+    "idSportiste" : 26,
+    "imeIPrezime" : "Horyan Gemenov",
+    "pol" : "M",
+    "nacionalnost" : "Azerbaijan",
+    "sport" : "Atletika",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6117bb7e188ef5257cf0dffd"),
+    "discipline" : [ 
+        "10000 metara trcanje", 
+        "skok u vis"
+    ],
+    "idSportiste" : 27,
+    "imeIPrezime" : "Marko Petrovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Atletika",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6117f13383753531c8b94f1d"),
+    "discipline" : [ 
+        "stafetno trcanje 100", 
+        "200 metara trcanje", 
+        "maraton", 
+        "20km brzo hodanje"
+    ],
+    "idSportiste" : 28,
+    "imeIPrezime" : "Neki Brat",
+    "pol" : "M",
+    "nacionalnost" : "Vanuatu",
+    "sport" : "Atletika",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6117f1cb83753531c8b94f1e"),
+    "discipline" : [ 
+        "200m slobodno"
+    ],
+    "idSportiste" : 29,
+    "imeIPrezime" : "Dragi Nikolic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("61181ca91cd8443f68db04eb"),
+    "discipline" : [ 
+        "25m malokalib.pistolj"
+    ],
+    "idSportiste" : 31,
+    "imeIPrezime" : "Danilo Petrovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Streljastvo",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61181d0d1cd8443f68db04ec"),
+    "discipline" : [ 
+        "200m slobodno"
+    ],
+    "idSportiste" : 32,
+    "imeIPrezime" : "Dragan Bojovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61181da91cd8443f68db04ed"),
+    "discipline" : [ 
+        "50m trostav"
+    ],
+    "idSportiste" : 33,
+    "imeIPrezime" : "Bojana Dragovic",
+    "pol" : "Z",
+    "nacionalnost" : "Serbia",
+    "sport" : "Streljastvo",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("61181dcd1cd8443f68db04ee"),
+    "discipline" : [ 
+        "dubl"
+    ],
+    "idSportiste" : 34,
+    "imeIPrezime" : "David Jevremovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("61181f951cd8443f68db04f3"),
+    "discipline" : [ 
+        "Pikado"
+    ],
+    "idSportiste" : 35,
+    "imeIPrezime" : "Muharem Camilagic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pikado",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61181f9f1cd8443f68db04f4"),
+    "discipline" : [ 
+        "Pikado"
+    ],
+    "idSportiste" : 36,
+    "imeIPrezime" : "Davorin Jenkovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pikado",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6118201e1cd8443f68db04f5"),
+    "discipline" : [ 
+        "Pikado"
+    ],
+    "idSportiste" : 37,
+    "imeIPrezime" : "Nikola Goranovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pikado",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("611820351cd8443f68db04f6"),
+    "discipline" : [ 
+        "Pikado"
+    ],
+    "idSportiste" : 38,
+    "imeIPrezime" : "Simonida Goranovic",
+    "pol" : "Z",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pikado",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6118206b1cd8443f68db04f7"),
+    "discipline" : [ 
+        "Pikado"
+    ],
+    "idSportiste" : 39,
+    "imeIPrezime" : "Vidan Petrovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pikado",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("611820ae1cd8443f68db04f8"),
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "idSportiste" : 39,
+    "imeIPrezime" : "Djordje Vulic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Biciklizam",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("611820fb1cd8443f68db04f9"),
+    "discipline" : [ 
+        "bacanje koplja", 
+        "maraton"
+    ],
+    "idSportiste" : 40,
+    "imeIPrezime" : "Joca Kakic",
+    "pol" : "M",
+    "nacionalnost" : "Nepal",
+    "sport" : "Atletika",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("611825051cd8443f68db04fa"),
+    "discipline" : [ 
+        "Vaterpolo"
+    ],
+    "idSportiste" : 41,
+    "imeIPrezime" : "Madmin Murmamyn",
+    "pol" : "M",
+    "nacionalnost" : "Azerbaijan",
+    "sport" : "Vaterpolo",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("611863ddc785114de043c877"),
+    "discipline" : [ 
+        "Pljuvanje u dalj"
+    ],
+    "idSportiste" : 42,
+    "imeIPrezime" : "Bogdan Lepojevic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Pljuvanje u dalj",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6118f7fb2f75af2668c4e6d3"),
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "idSportiste" : 43,
+    "imeIPrezime" : "Jovan Djordjevic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6118f8172f75af2668c4e6d4"),
+    "discipline" : [ 
+        "Kosarka"
+    ],
+    "idSportiste" : 44,
+    "imeIPrezime" : "Zeljko Andrejic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Kosarka",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6122b2b849519d04141b7b60"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 45,
+    "imeIPrezime" : "Danil Medvedev",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6122b2c849519d04141b7b61"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 46,
+    "imeIPrezime" : "Andrey Rublev",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6122b2da49519d04141b7b62"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 47,
+    "imeIPrezime" : "Aslan Karatsev",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6122b2e949519d04141b7b63"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 48,
+    "imeIPrezime" : "Karen Khacanov",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6122b30449519d04141b7b64"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 49,
+    "imeIPrezime" : "Rafael Nadal",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6122b31749519d04141b7b65"),
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "idSportiste" : 50,
+    "imeIPrezime" : "Pablo Busta",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("6122b32749519d04141b7b66"),
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "idSportiste" : 51,
+    "imeIPrezime" : "Bautista Agut",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("6122b35749519d04141b7b67"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 52,
+    "imeIPrezime" : "Matteo Berettini",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("6122b36749519d04141b7b68"),
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "idSportiste" : 53,
+    "imeIPrezime" : "Jannick Sinner",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("6122b37449519d04141b7b69"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 54,
+    "imeIPrezime" : "Lorenzo Sonego",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Tenis",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("6122b38e49519d04141b7b6a"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 55,
+    "imeIPrezime" : "Filip Krajinovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("612510c88d49805508b34886"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 56,
+    "imeIPrezime" : "Pedro Gonzales",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("612511038d49805508b34887"),
+    "discipline" : [ 
+        "singl"
+    ],
+    "idSportiste" : 57,
+    "imeIPrezime" : "Mauritio Pedritti",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("6125114e8d49805508b34888"),
+    "discipline" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "idSportiste" : 58,
+    "imeIPrezime" : "Aleksey Nikolovich",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Tenis",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("6127b414acf4ef63cca03254"),
+    "discipline" : [ 
+        "Vaterpolo"
+    ],
+    "idSportiste" : 59,
+    "imeIPrezime" : "Dobrivoje Rockomanovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Vaterpolo",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("6127b444acf4ef63cca03255"),
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "idSportiste" : 60,
+    "imeIPrezime" : "Zdravko Bjelobabic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Biciklizam",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("6127b6ddacf4ef63cca03257"),
+    "discipline" : [ 
+        "100 metara trcanje", 
+        "stafetno trcanje 100", 
+        "200 metara trcanje", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "idSportiste" : 61,
+    "imeIPrezime" : "Jovanka Orleanka",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Atletika",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("6128c9d67e820044c0db2872"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 62,
+    "imeIPrezime" : "Indian Boy",
+    "pol" : "M",
+    "nacionalnost" : "India",
+    "sport" : "Plivanje",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("6128c9e77e820044c0db2873"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 63,
+    "imeIPrezime" : "Penjab Singh",
+    "pol" : "M",
+    "nacionalnost" : "India",
+    "sport" : "Plivanje",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("6128ca0c7e820044c0db2874"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 64,
+    "imeIPrezime" : "Shala Petrolli",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Plivanje",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("6128ca1b7e820044c0db2875"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 65,
+    "imeIPrezime" : "Dramane Trinchierri",
+    "pol" : "M",
+    "nacionalnost" : "Italy",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("6128ca497e820044c0db2876"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 66,
+    "imeIPrezime" : "Pedro Iziquerdo",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("6128ca587e820044c0db2877"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 67,
+    "imeIPrezime" : "Xabi Martinez",
+    "pol" : "M",
+    "nacionalnost" : "Spain",
+    "sport" : "Plivanje",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("6128ca747e820044c0db2878"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 68,
+    "imeIPrezime" : "Maksim Gorkov",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Plivanje",
+    "medalja" : 0,
+    "__v" : 0
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("6128ca877e820044c0db2879"),
+    "discipline" : [ 
+        "100m leptir"
+    ],
+    "idSportiste" : 69,
+    "imeIPrezime" : "Jurij Markovich",
+    "pol" : "M",
+    "nacionalnost" : "ROC",
+    "sport" : "Plivanje",
+    "medalja" : 1,
+    "__v" : 0
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("61291476de624553ac8be80e"),
+    "discipline" : [ 
+        "nordijsko skijanje"
+    ],
+    "idSportiste" : 70,
+    "imeIPrezime" : "Danko Miladinovic",
+    "pol" : "M",
+    "nacionalnost" : "Serbia",
+    "sport" : "Skijanje",
+    "medalja" : 0,
+    "__v" : 0
+}

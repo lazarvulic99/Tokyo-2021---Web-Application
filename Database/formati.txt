@@ -1,0 +1,483 @@
+/* 1 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7932"),
+    "sport" : "Kosarka",
+    "disciplina" : "Kosarka",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 12,
+    "max" : 12
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7935"),
+    "sport" : "Odbojka",
+    "disciplina" : "Odbojka",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 12,
+    "max" : 12
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7938"),
+    "sport" : "Vaterpolo",
+    "disciplina" : "Vaterpolo",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 12,
+    "max" : 12
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("611a615c42844e43278d793b"),
+    "sport" : "Atletika",
+    "disciplina" : "100 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS:TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("611a615c42844e43278d793e"),
+    "sport" : "Atletika",
+    "disciplina" : "stafetno trcanje 100",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS:TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7941"),
+    "sport" : "Atletika",
+    "disciplina" : "200 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS:TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7944"),
+    "sport" : "Atletika",
+    "disciplina" : "400 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS:TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7947"),
+    "sport" : "Atletika",
+    "disciplina" : "stafetno trcanje 400",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS:TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("611a615c42844e43278d794a"),
+    "sport" : "Atletika",
+    "disciplina" : "800 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "MM:SS,TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("611a615c42844e43278d794d"),
+    "sport" : "Atletika",
+    "disciplina" : "5000 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "MM:SS,TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7950"),
+    "sport" : "Atletika",
+    "disciplina" : "10000 metara trcanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "MM:SS,TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7953"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7956"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7959"),
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("611a615c42844e43278d795c"),
+    "sport" : "Atletika",
+    "disciplina" : "skok s motkom",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("611a615c42844e43278d795f"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7962"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7965"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7968"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("611a615c42844e43278d796b"),
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "ManjeVece" : 1,
+    "brRundi" : 2,
+    "format" : "CC:MM:SS",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("611a615c42844e43278d796e"),
+    "sport" : "Atletika",
+    "disciplina" : "20km brzo hodanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "CC:MM:SS",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7971"),
+    "sport" : "Atletika",
+    "disciplina" : "50km brzo hodanje",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "CC:MM:SS",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7974"),
+    "sport" : "Biciklizam",
+    "disciplina" : "drumska trka 225km",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "CC:MM:SS",
+    "min" : 0,
+    "max" : 100000
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7977"),
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS,TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("611a615c42844e43278d797a"),
+    "sport" : "Plivanje",
+    "disciplina" : "200m slobodno",
+    "ManjeVece" : 1,
+    "brRundi" : 1,
+    "format" : "SS,TT",
+    "min" : 8,
+    "max" : 8
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("611a615c42844e43278d797d"),
+    "sport" : "Streljastvo",
+    "disciplina" : "50m trostav",
+    "ManjeVece" : 2,
+    "brRundi" : 6,
+    "format" : "BrKrugova",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7980"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "ManjeVece" : 2,
+    "brRundi" : 6,
+    "format" : "BrKrugova",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7983"),
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalib.pistolj",
+    "ManjeVece" : 2,
+    "brRundi" : 6,
+    "format" : "BrKrugova",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7986"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "ManjeVece" : 2,
+    "brRundi" : 6,
+    "format" : "BrKrugova",
+    "min" : 0,
+    "max" : 8
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7989"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 4,
+    "max" : 16
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("611a615c42844e43278d798c"),
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 4,
+    "max" : 16
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("611a615c42844e43278d798f"),
+    "sport" : "Pikado",
+    "disciplina" : "Pikado",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "BrKrugova",
+    "min" : 4,
+    "max" : 16
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7992"),
+    "sport" : "Badminton",
+    "disciplina" : "singl",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 4,
+    "max" : 16
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7995"),
+    "sport" : "Badminton",
+    "disciplina" : "dubl",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 4,
+    "max" : 16
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("611a615c42844e43278d7998"),
+    "sport" : "Rukomet",
+    "disciplina" : "Rukomet",
+    "ManjeVece" : 2,
+    "brRundi" : 0,
+    "format" : "A:B",
+    "min" : 12,
+    "max" : 12
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("611a615c42844e43278d799b"),
+    "sport" : "Pljuvanje u dalj",
+    "disciplina" : "Pljuvanje u dalj",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "M,CM",
+    "min" : 1,
+    "max" : 1
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("611a65314287e62e44ce8dad"),
+    "sport" : "Tekvondo",
+    "disciplina" : "Tekvondo",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "BrPoena",
+    "min" : 8,
+    "max" : 8,
+    "__v" : 0
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("611a66bc4287e62e44ce8db9"),
+    "sport" : "Macevanje",
+    "disciplina" : "Macevanje sabljama",
+    "ManjeVece" : 2,
+    "brRundi" : 3,
+    "format" : "BrPoena",
+    "min" : 4,
+    "max" : 8,
+    "__v" : 0
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("612823fae4e527292058d67f"),
+    "sport" : "Rvanje",
+    "disciplina" : "grcko-rimski stil",
+    "ManjeVece" : 2,
+    "brRundi" : 1,
+    "format" : "BrPoena",
+    "min" : 8,
+    "max" : 8,
+    "__v" : 0
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6129135bde624553ac8be80c"),
+    "sport" : "Skijanje",
+    "disciplina" : "nordijsko skijanje",
+    "ManjeVece" : 2,
+    "brRundi" : 1,
+    "format" : "BrPoena",
+    "min" : 8,
+    "max" : 8,
+    "__v" : 0
+}

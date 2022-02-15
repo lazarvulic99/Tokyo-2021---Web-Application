@@ -1,0 +1,274 @@
+/* 1 */
+{
+    "_id" : ObjectId("6111896b42844e43278c50b2"),
+    "kor_ime" : "iva",
+    "lozinka" : "IvaKeli99!!",
+    "ime" : "Ivana",
+    "prezime" : "Goranovic",
+    "zemlja" : "Serbia",
+    "mejl" : "ivana99@hotmail.com",
+    "tip" : "Organizator",
+    "odobren" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61118b1f42844e43278c50e8"),
+    "kor_ime" : "jana",
+    "lozinka" : "JAnaa99!!",
+    "ime" : "Jana",
+    "prezime" : "Zivkovic",
+    "zemlja" : "Serbia",
+    "mejl" : "jana99@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61118b6942844e43278c50f0"),
+    "kor_ime" : "lazar",
+    "lozinka" : "Vuxx99!!",
+    "ime" : "Lazar",
+    "prezime" : "Vulic",
+    "zemlja" : "Serbia",
+    "mejl" : "lazar.vulic99@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61118ba242844e43278c50f8"),
+    "kor_ime" : "simke99",
+    "lozinka" : "SImkee99!!",
+    "ime" : "Luka",
+    "prezime" : "Simovic",
+    "zemlja" : "Serbia",
+    "mejl" : "simke99@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6112bf62b1db1c36e0fa3c8d"),
+    "kor_ime" : "bojana",
+    "lozinka" : "KRemic99!!",
+    "ime" : "Bojana",
+    "prezime" : "Kremic",
+    "zemlja" : "Serbia",
+    "mejl" : "kremic99@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6112c16db1db1c36e0fa3c8e"),
+    "kor_ime" : "vesna",
+    "lozinka" : "VEcaa64!!",
+    "ime" : "Vesna",
+    "prezime" : "Vulic",
+    "zemlja" : "Serbia",
+    "mejl" : "veca64@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6117ab8142844e43278d11a1"),
+    "kor_ime" : "abdul99",
+    "lozinka" : "ABdul99!!",
+    "ime" : "Abdullah",
+    "prezime" : "Mamanov",
+    "zemlja" : "Azerbaijan",
+    "mejl" : "abdul99@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("611853896d668343207b9673"),
+    "kor_ime" : "petar",
+    "lozinka" : "PErica99!!",
+    "ime" : "Petar",
+    "prezime" : "Peric",
+    "zemlja" : "Serbia",
+    "mejl" : "pera99@gmailcom",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6118e74476b6df2bf0214a1d"),
+    "kor_ime" : "bane",
+    "lozinka" : "Bane99!!",
+    "ime" : "Bane",
+    "prezime" : "Ilic",
+    "zemlja" : "Serbia",
+    "mejl" : "bane@yahoo.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("611aca83f1d39c0cd0576a45"),
+    "kor_ime" : "vidan",
+    "lozinka" : "VIdan64!!",
+    "ime" : "Vidan",
+    "prezime" : "Petrovic",
+    "zemlja" : "Serbia",
+    "mejl" : "kareli64@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("611acdacf1d39c0cd0576a46"),
+    "kor_ime" : "jakov",
+    "lozinka" : "jAKov98!!",
+    "ime" : "Jakov",
+    "prezime" : "Ignjatovic",
+    "zemlja" : "Croatia",
+    "mejl" : "jakov98@yahoo.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("611d6cf6dc00480fa423b9e3"),
+    "kor_ime" : "niagara",
+    "lozinka" : "NIagara99!!",
+    "ime" : "Niagara",
+    "prezime" : "Vodopad",
+    "zemlja" : "Argentina",
+    "mejl" : "niagara@arg.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6121027b7ef01c1f08b1cce0"),
+    "kor_ime" : "danica",
+    "lozinka" : "DAnica99!!",
+    "ime" : "Danica",
+    "prezime" : "Popescu",
+    "zemlja" : "Romania",
+    "mejl" : "d.popescu99@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6121039d7ef01c1f08b1cce4"),
+    "kor_ime" : "vaskez",
+    "lozinka" : "VAskez99!!",
+    "ime" : "Vasilisa",
+    "prezime" : "Buric",
+    "zemlja" : "Montenegro",
+    "mejl" : "vaskez@hotmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6122b21e49519d04141b7b5d"),
+    "kor_ime" : "putin",
+    "lozinka" : "PUtin00!!",
+    "ime" : "Vladimir",
+    "prezime" : "Putin",
+    "zemlja" : "ROC",
+    "mejl" : "putinko@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6122b24b49519d04141b7b5e"),
+    "kor_ime" : "jorge",
+    "lozinka" : "JOrge00!!",
+    "ime" : "Juan",
+    "prezime" : "Jorge",
+    "zemlja" : "Spain",
+    "mejl" : "jorge@yahoo.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6122b27e49519d04141b7b5f"),
+    "kor_ime" : "valastro",
+    "lozinka" : "BUudy00!!",
+    "ime" : "Buddy",
+    "prezime" : "Valastro",
+    "zemlja" : "Italy",
+    "mejl" : "buudy@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6126b12851808f4a70ae9526"),
+    "kor_ime" : "pedro",
+    "lozinka" : "PEdro00!!",
+    "ime" : "Pedro",
+    "prezime" : "Barbosa",
+    "zemlja" : "Mexico",
+    "mejl" : "pedrosa@gmail.com",
+    "tip" : "Delegat",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6126b14a51808f4a70ae9527"),
+    "kor_ime" : "singh",
+    "lozinka" : "SIngh00!!",
+    "ime" : "Kasmir",
+    "prezime" : "Singh",
+    "zemlja" : "India",
+    "mejl" : "singh@yahoo.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("612807bbe4e527292058d67c"),
+    "kor_ime" : "peter00",
+    "lozinka" : "PEter00!!",
+    "ime" : "Peter",
+    "prezime" : "Kammerson",
+    "zemlja" : "Denmark",
+    "mejl" : "peter@gmail.com",
+    "tip" : "Vodja",
+    "odobren" : 1,
+    "__v" : 0
+}

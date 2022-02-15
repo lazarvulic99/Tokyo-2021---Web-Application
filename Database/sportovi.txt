@@ -1,0 +1,191 @@
+/* 1 */
+{
+    "_id" : ObjectId("6113ba0842844e43278c6c8c"),
+    "idSporta" : 1,
+    "sport" : "Kosarka",
+    "discipline" : [ 
+        1
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6113ba4a42844e43278c6cb0"),
+    "idSporta" : 2,
+    "sport" : "Odbojka",
+    "discipline" : [ 
+        2
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6113ba5f42844e43278c6cb9"),
+    "idSporta" : 3,
+    "sport" : "Vaterpolo",
+    "discipline" : [ 
+        3
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6113ba6e42844e43278c6cbf"),
+    "idSporta" : 4,
+    "sport" : "Atletika",
+    "discipline" : [ 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6113bab142844e43278c6ce2"),
+    "idSporta" : 5,
+    "sport" : "Biciklizam",
+    "discipline" : [ 
+        23
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6113bac242844e43278c6cf3"),
+    "idSporta" : 6,
+    "sport" : "Plivanje",
+    "discipline" : [ 
+        24, 
+        25
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6113bae142844e43278c6cfe"),
+    "idSporta" : 7,
+    "sport" : "Streljastvo",
+    "discipline" : [ 
+        26, 
+        27, 
+        28, 
+        29
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6113baf342844e43278c6d05"),
+    "idSporta" : 8,
+    "sport" : "Tenis",
+    "discipline" : [ 
+        30, 
+        31
+    ]
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61178f2dabfe5c45687b4bb5"),
+    "discipline" : [ 
+        32
+    ],
+    "idSporta" : 9,
+    "sport" : "Pikado",
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("61183cd358964f5168a297ad"),
+    "discipline" : [ 
+        33, 
+        34
+    ],
+    "idSporta" : 10,
+    "sport" : "Badminton",
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("611861aec785114de043c873"),
+    "discipline" : [ 
+        35
+    ],
+    "idSporta" : 11,
+    "sport" : "Rukomet",
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("61186351c785114de043c875"),
+    "discipline" : [ 
+        36
+    ],
+    "idSporta" : 12,
+    "sport" : "Pljuvanje u dalj",
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("611a65314287e62e44ce8dab"),
+    "discipline" : [ 
+        37
+    ],
+    "idSporta" : 13,
+    "sport" : "Tekvondo",
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("611a66bc4287e62e44ce8db7"),
+    "discipline" : [ 
+        38
+    ],
+    "idSporta" : 14,
+    "sport" : "Macevanje",
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("612823fae4e527292058d67d"),
+    "discipline" : [ 
+        39
+    ],
+    "idSporta" : 15,
+    "sport" : "Rvanje",
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6129135bde624553ac8be80a"),
+    "discipline" : [ 
+        40
+    ],
+    "idSporta" : 16,
+    "sport" : "Skijanje",
+    "__v" : 0
+}

@@ -1,0 +1,353 @@
+/* 1 */
+{
+    "_id" : ObjectId("612bce77cd022b1aa88ed1f8"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 49,
+        "takmicarB" : 1,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b30449519d04141b7b64",
+            "idSportiste" : 49,
+            "imeIPrezime" : "Rafael Nadal",
+            "pol" : "M",
+            "nacionalnost" : "Spain",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl", 
+                "dubl"
+            ],
+            "_id" : "6113c3f942844e43278c70f3",
+            "idSportiste" : 1,
+            "imeIPrezime" : "Novak Djokovic",
+            "pol" : "M",
+            "nacionalnost" : "Serbia",
+            "sport" : "Tenis",
+            "medalja" : 1
+        }
+    },
+    "rezultatA" : 2,
+    "rezultatB" : 0,
+    "brMeca" : 1,
+    "zavrsen" : 1,
+    "tip" : "1/4 finale",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("612bce77cd022b1aa88ed1f9"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 50,
+        "takmicarB" : 48,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl", 
+                "dubl"
+            ],
+            "_id" : "6122b31749519d04141b7b65",
+            "idSportiste" : 50,
+            "imeIPrezime" : "Pablo Busta",
+            "pol" : "M",
+            "nacionalnost" : "Spain",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2e949519d04141b7b63",
+            "idSportiste" : 48,
+            "imeIPrezime" : "Karen Khacanov",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 1,
+    "rezultatB" : 2,
+    "brMeca" : 3,
+    "zavrsen" : 1,
+    "tip" : "1/4 finale",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612bce77cd022b1aa88ed1fa"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 47,
+        "takmicarB" : 52,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2da49519d04141b7b62",
+            "idSportiste" : 47,
+            "imeIPrezime" : "Aslan Karatsev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b35749519d04141b7b67",
+            "idSportiste" : 52,
+            "imeIPrezime" : "Matteo Berettini",
+            "pol" : "M",
+            "nacionalnost" : "Italy",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 2,
+    "rezultatB" : 0,
+    "brMeca" : 2,
+    "zavrsen" : 1,
+    "tip" : "1/4 finale",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("612bce77cd022b1aa88ed1fb"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 45,
+        "takmicarB" : 43,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2b849519d04141b7b60",
+            "idSportiste" : 45,
+            "imeIPrezime" : "Danil Medvedev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl", 
+                "dubl"
+            ],
+            "_id" : "6118f7fb2f75af2668c4e6d3",
+            "idSportiste" : 43,
+            "imeIPrezime" : "Jovan Djordjevic",
+            "pol" : "M",
+            "nacionalnost" : "Serbia",
+            "sport" : "Tenis",
+            "medalja" : 0,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 2,
+    "rezultatB" : 1,
+    "brMeca" : 4,
+    "zavrsen" : 1,
+    "tip" : "1/4 finale",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("612bce83cd022b1aa88ed1fc"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 49,
+        "takmicarB" : 47,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b30449519d04141b7b64",
+            "idSportiste" : 49,
+            "imeIPrezime" : "Rafael Nadal",
+            "pol" : "M",
+            "nacionalnost" : "Spain",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2da49519d04141b7b62",
+            "idSportiste" : 47,
+            "imeIPrezime" : "Aslan Karatsev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 1,
+    "rezultatB" : 2,
+    "brMeca" : 5,
+    "zavrsen" : 1,
+    "tip" : "1/2 finale",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("612bce83cd022b1aa88ed1fd"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 48,
+        "takmicarB" : 45,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2e949519d04141b7b63",
+            "idSportiste" : 48,
+            "imeIPrezime" : "Karen Khacanov",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2b849519d04141b7b60",
+            "idSportiste" : 45,
+            "imeIPrezime" : "Danil Medvedev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 1,
+    "rezultatB" : 2,
+    "brMeca" : 6,
+    "zavrsen" : 1,
+    "tip" : "1/2 finale",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("612bce89cd022b1aa88ed1fe"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 47,
+        "takmicarB" : 45,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2da49519d04141b7b62",
+            "idSportiste" : 47,
+            "imeIPrezime" : "Aslan Karatsev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2b849519d04141b7b60",
+            "idSportiste" : 45,
+            "imeIPrezime" : "Danil Medvedev",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 1,
+    "rezultatB" : 2,
+    "brMeca" : 7,
+    "zavrsen" : 1,
+    "tip" : "Finale",
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("612bce89cd022b1aa88ed1ff"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "mec" : {
+        "takmicarA" : 49,
+        "takmicarB" : 48,
+        "sportistaA" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b30449519d04141b7b64",
+            "idSportiste" : 49,
+            "imeIPrezime" : "Rafael Nadal",
+            "pol" : "M",
+            "nacionalnost" : "Spain",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        },
+        "sportistaB" : {
+            "discipline" : [ 
+                "singl"
+            ],
+            "_id" : "6122b2e949519d04141b7b63",
+            "idSportiste" : 48,
+            "imeIPrezime" : "Karen Khacanov",
+            "pol" : "M",
+            "nacionalnost" : "ROC",
+            "sport" : "Tenis",
+            "medalja" : 1,
+            "__v" : 0
+        }
+    },
+    "rezultatA" : 0,
+    "rezultatB" : 2,
+    "brMeca" : 8,
+    "zavrsen" : 1,
+    "tip" : "Za 3.mesto",
+    "__v" : 0
+}

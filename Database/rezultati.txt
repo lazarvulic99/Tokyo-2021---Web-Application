@@ -1,0 +1,178 @@
+/* 1 */
+{
+    "_id" : ObjectId("612bcf4dcd022b1aa88ed206"),
+    "results" : [ 
+        "4:14:51", 
+        "4:55:51"
+    ],
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "pol" : "M",
+    "takmicar" : 2,
+    "repesaz" : "",
+    "repesazBroj" : 0,
+    "trebaRepesaz" : 0,
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("612bcf50cd022b1aa88ed207"),
+    "results" : [ 
+        "4:13:51", 
+        "5:12:22"
+    ],
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "pol" : "M",
+    "takmicar" : 40,
+    "repesaz" : "",
+    "repesazBroj" : 0,
+    "trebaRepesaz" : 0,
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612bcf52cd022b1aa88ed208"),
+    "results" : [ 
+        "4:12:29", 
+        "4:33:37"
+    ],
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "pol" : "M",
+    "takmicar" : 28,
+    "repesaz" : "",
+    "repesazBroj" : 0,
+    "trebaRepesaz" : 0,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("612bcfbacd022b1aa88ed209"),
+    "results" : [ 
+        "48,15"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 8,
+    "repesaz" : "",
+    "repesazBroj" : 0,
+    "trebaRepesaz" : 0,
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("612bcfbccd022b1aa88ed20a"),
+    "results" : [ 
+        "48,11"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 9,
+    "repesaz" : "48,33",
+    "repesazBroj" : 2913,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("612bcfbecd022b1aa88ed20b"),
+    "results" : [ 
+        "48,11"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 13,
+    "repesaz" : "53,55",
+    "repesazBroj" : 3235,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("612bcfc0cd022b1aa88ed20c"),
+    "results" : [ 
+        "48,11"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 63,
+    "repesaz" : "51,12",
+    "repesazBroj" : 3072,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("612bcfc1cd022b1aa88ed20d"),
+    "results" : [ 
+        "48,11"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 15,
+    "repesaz" : "49,44",
+    "repesazBroj" : 2984,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("612bcfc5cd022b1aa88ed20e"),
+    "results" : [ 
+        "48,22"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 10,
+    "repesaz" : "50,12",
+    "repesazBroj" : 3012,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("612bcfc8cd022b1aa88ed20f"),
+    "results" : [ 
+        "48,35"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 11,
+    "repesaz" : "",
+    "repesazBroj" : 0,
+    "trebaRepesaz" : 0,
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("612bcfcbcd022b1aa88ed210"),
+    "results" : [ 
+        "48,22"
+    ],
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "takmicar" : 64,
+    "repesaz" : "56,12",
+    "repesazBroj" : 3372,
+    "trebaRepesaz" : 1,
+    "__v" : 0
+}

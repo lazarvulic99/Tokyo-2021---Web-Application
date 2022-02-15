@@ -1,0 +1,575 @@
+/* 1 */
+{
+    "_id" : ObjectId("61145a3c42844e43278c8c73"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "100m trcanje",
+    "takmicar" : "Usain Bolt",
+    "zemlja" : "Jamaica",
+    "vremeIliDuzina" : "9.63",
+    "pol" : "M"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61145aa642844e43278c8ca2"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "200m trcanje",
+    "takmicar" : "Usain Bolt",
+    "zemlja" : "Jamaica",
+    "vremeIliDuzina" : "19.30",
+    "pol" : "M"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61146db742844e43278c935c"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "400 metara trcanje",
+    "takmicar" : "Wayde van Niekerk",
+    "zemlja" : "South Africa",
+    "vremeIliDuzina" : "43.03",
+    "pol" : "M"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61146db742844e43278c935f"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "800 metara trcanje",
+    "takmicar" : "David Rudisha",
+    "zemlja" : "Kenya",
+    "vremeIliDuzina" : "1:40.91",
+    "pol" : "M"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61146db742844e43278c9362"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "1500 metara trcanje",
+    "takmicar" : "Jakob Ingebrigtsen",
+    "zemlja" : "Norway",
+    "vremeIliDuzina" : "3:28.32",
+    "pol" : "M"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61146db742844e43278c9365"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "5000 metara trcanje",
+    "takmicar" : "Kenenisa Bekele",
+    "zemlja" : "Ethiopia",
+    "vremeIliDuzina" : "12:57.82",
+    "pol" : "M"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61146db742844e43278c9368"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "10000 metara trcanje",
+    "takmicar" : "Kenenisa Bekele",
+    "zemlja" : "Ethiopia",
+    "vremeIliDuzina" : "27:01.17",
+    "pol" : "M"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61146db742844e43278c936b"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "maraton",
+    "takmicar" : "Samuel Wanjiru",
+    "zemlja" : "Kenya",
+    "vremeIliDuzina" : "2:06:32",
+    "pol" : "M"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61146db742844e43278c936e"),
+    "godina" : 2004,
+    "mesto" : "Athens",
+    "disciplina" : "110 metara prepone",
+    "takmicar" : "Liu Xiang",
+    "zemlja" : "China",
+    "vremeIliDuzina" : "12.91",
+    "pol" : "M"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("61146db742844e43278c9371"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "400 metara prepone",
+    "takmicar" : "Karsten Warholm",
+    "zemlja" : "Norway",
+    "vremeIliDuzina" : "45.94",
+    "pol" : "M"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("61146db742844e43278c9374"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "3000 metara sa preprekama",
+    "takmicar" : "Conseslus Kipruto",
+    "zemlja" : "Kenya",
+    "vremeIliDuzina" : "8:03.28",
+    "pol" : "M"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("61146db742844e43278c9377"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "stafetno trcanje 100",
+    "takmicar" : "Nesta Carter, Michael Frater, Yohan Blake, Usain Bolt",
+    "zemlja" : "Jamaica",
+    "vremeIliDuzina" : "36.84",
+    "pol" : "M"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("61146db742844e43278c937a"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "stafetno trcanje 400",
+    "takmicar" : "LaShawn Merritt, Angelo Taylor, David Neville, Jeremy Wariner",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "2:55.39",
+    "pol" : "M"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("61146db742844e43278c937d"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "20km brzo hodanje",
+    "takmicar" : "Chen Ding",
+    "zemlja" : "China",
+    "vremeIliDuzina" : "1:18:46",
+    "pol" : "M"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("61146db742844e43278c9380"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "50km brzo hodanje",
+    "takmicar" : "Jared Tallent",
+    "zemlja" : "Australia",
+    "vremeIliDuzina" : "3:36:53",
+    "pol" : "M"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("61146db742844e43278c9383"),
+    "godina" : 1996,
+    "mesto" : "Atlanta",
+    "disciplina" : "skok u vis",
+    "takmicar" : "Charles Austin",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "2.39 m",
+    "pol" : "M"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("61146db742844e43278c9386"),
+    "godina" : 1968,
+    "mesto" : "Mexico City",
+    "disciplina" : "skok u dalj",
+    "takmicar" : "Bob Beamon",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "8.90 m",
+    "pol" : "M"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("61146db742844e43278c9389"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "skok s motkom",
+    "takmicar" : "Thiago Braz",
+    "zemlja" : "Brazil",
+    "vremeIliDuzina" : "6.03 m",
+    "pol" : "M"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("61146db742844e43278c938c"),
+    "godina" : 1996,
+    "mesto" : "Atlanta",
+    "disciplina" : "troskok",
+    "takmicar" : "Kenny Harrison",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "18.09 m",
+    "pol" : "M"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("61146db742844e43278c938f"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "bacanje kugle",
+    "takmicar" : "Ryan Crouser",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "23.30 m",
+    "pol" : "M"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("61146db742844e43278c9392"),
+    "godina" : 2004,
+    "mesto" : "Athens",
+    "disciplina" : "bacanje diska",
+    "takmicar" : "Virgilijus Alekna",
+    "zemlja" : "Lithuania",
+    "vremeIliDuzina" : "69.89 m",
+    "pol" : "M"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("61146db742844e43278c9395"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "bacanje kladiva",
+    "takmicar" : "Sergey Litvinov",
+    "zemlja" : "Soviet Union",
+    "vremeIliDuzina" : "84.80 m",
+    "pol" : "M"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("61146db742844e43278c9398"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "bacanje koplja",
+    "takmicar" : "Andreas Thorkildsen",
+    "zemlja" : "Norway",
+    "vremeIliDuzina" : "90.57 m",
+    "pol" : "M"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("61146db742844e43278c939b"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "Decatholn",
+    "takmicar" : "Damian Warner",
+    "zemlja" : "Canada",
+    "vremeIliDuzina" : "9018 pts",
+    "pol" : "M"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("611472da42844e43278c9568"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "100 metara trcanje",
+    "takmicar" : "Elaine Thompson Herah",
+    "zemlja" : "Jamaica",
+    "vremeIliDuzina" : "10.61",
+    "pol" : "Z"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("611472da42844e43278c956b"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "200 metara trcanje",
+    "takmicar" : "Florence Griffith Joyner",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "21.34",
+    "pol" : "Z"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("611472da42844e43278c956e"),
+    "godina" : 1996,
+    "mesto" : "Atlanta",
+    "disciplina" : "400 metara trcanje",
+    "takmicar" : "Marie-Jose Perec",
+    "zemlja" : "France",
+    "vremeIliDuzina" : "48.25",
+    "pol" : "Z"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("611472da42844e43278c9571"),
+    "godina" : 1980,
+    "mesto" : "Moscow",
+    "disciplina" : "800 metara trcanje",
+    "takmicar" : "Nadezhda Olizarenko",
+    "zemlja" : "Soviet Union",
+    "vremeIliDuzina" : "1:53.43",
+    "pol" : "Z"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("611472da42844e43278c9574"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "1500 metara trcanje",
+    "takmicar" : "Faith Kipyegon",
+    "zemlja" : "Kenya",
+    "vremeIliDuzina" : "3:53.11",
+    "pol" : "Z"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("611472da42844e43278c9577"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "5000 metara trcanje",
+    "takmicar" : "Vivian Cheruiyot",
+    "zemlja" : "Kenya",
+    "vremeIliDuzina" : "14:26.17",
+    "pol" : "Z"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("611472da42844e43278c957a"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "10000 metara trcanje",
+    "takmicar" : "Almaz Ayana",
+    "zemlja" : "Ethiopia",
+    "vremeIliDuzina" : "29:17.45",
+    "pol" : "Z"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("611472da42844e43278c957d"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "maraton",
+    "takmicar" : "Tiki Gelana",
+    "zemlja" : "Ethiopia",
+    "vremeIliDuzina" : "2:23:07",
+    "pol" : "Z"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("611472da42844e43278c9580"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "100 metara prepone",
+    "takmicar" : "Jasmine Camacho-Quinn",
+    "zemlja" : "Puerto Rico",
+    "vremeIliDuzina" : "12.26",
+    "pol" : "Z"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("611472da42844e43278c9583"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "400 metara prepone",
+    "takmicar" : "Sydney McLaughlin",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "51.46",
+    "pol" : "Z"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("611472da42844e43278c9586"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "3000 metara sa preprekama",
+    "takmicar" : "Gulnara Galkina-Samitova",
+    "zemlja" : "Russia",
+    "vremeIliDuzina" : "8:58.81",
+    "pol" : "Z"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("611472da42844e43278c9589"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "stafetno trcanje 100",
+    "takmicar" : "Tianna Madison, Allyson Felix, Bianca Knight, Carmelita Jeter",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "40.82",
+    "pol" : "Z"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("611472da42844e43278c958c"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "stafetno trcanje 400",
+    "takmicar" : "Tatyana Ledovskaya, Olga Nazarova, Mariya Pinigina, Olga Bryzgina",
+    "zemlja" : "Soviet Union",
+    "vremeIliDuzina" : "3:15.17",
+    "pol" : "Z"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("611472da42844e43278c958f"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "disciplina" : "20km brzo hodanje",
+    "takmicar" : "Elena Lashmanova",
+    "zemlja" : "Russia",
+    "vremeIliDuzina" : "1:25:02",
+    "pol" : "Z"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("611472da42844e43278c9592"),
+    "godina" : 2004,
+    "mesto" : "Athens",
+    "disciplina" : "skok u vis",
+    "takmicar" : "Yelena Slesarenko",
+    "zemlja" : "Russia",
+    "vremeIliDuzina" : "2.06 m",
+    "pol" : "Z"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("611472da42844e43278c9595"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "skok u dalj",
+    "takmicar" : "Jackie Joyner-Kersee",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "7.40 m",
+    "pol" : "Z"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("611472da42844e43278c9598"),
+    "godina" : 2008,
+    "mesto" : "Peking",
+    "disciplina" : "skok s motkom",
+    "takmicar" : "Yelena Isinbayeva",
+    "zemlja" : "Russia",
+    "vremeIliDuzina" : "5.05 m",
+    "pol" : "Z"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("611472da42844e43278c959b"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "troskok",
+    "takmicar" : "Yulimar Rojas",
+    "zemlja" : "Venezuela",
+    "vremeIliDuzina" : "15.67 m",
+    "pol" : "Z"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("611472da42844e43278c959e"),
+    "godina" : 1980,
+    "mesto" : "Moscow",
+    "disciplina" : "bacanje kugle",
+    "takmicar" : "Ilona Slupianek",
+    "zemlja" : "East Germany",
+    "vremeIliDuzina" : "22.41 m",
+    "pol" : "Z"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("611472da42844e43278c95a1"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "bacanje diska",
+    "takmicar" : "Martina Hellmann",
+    "zemlja" : "East Germany",
+    "vremeIliDuzina" : "72.30 m",
+    "pol" : "Z"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("611472da42844e43278c95a4"),
+    "godina" : 2016,
+    "mesto" : "Rio de Janeiro",
+    "disciplina" : "bacanje kladiva",
+    "takmicar" : "Anita Wlodarczyk",
+    "zemlja" : "Poland",
+    "vremeIliDuzina" : "82.29 m",
+    "pol" : "Z"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("611472da42844e43278c95a7"),
+    "godina" : 2004,
+    "mesto" : "Athens",
+    "disciplina" : "bacanje koplja",
+    "takmicar" : "Osleidys Menendez",
+    "zemlja" : "Cuba",
+    "vremeIliDuzina" : "71.53 m",
+    "pol" : "Z"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("611472da42844e43278c95aa"),
+    "godina" : 1988,
+    "mesto" : "Seoul",
+    "disciplina" : "Hepathlon",
+    "takmicar" : "Jackie Joyner-Kersee",
+    "zemlja" : "USA",
+    "vremeIliDuzina" : "7291 pts",
+    "pol" : "Z"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("611472da42844e43278c95ad"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "disciplina" : "4x400 m relay",
+    "takmicar" : "Kajetan Duszynski, Natalia Kaczmarek, Justyina Swiety-Ersetic, Karol Zalewski",
+    "zemlja" : "Poland",
+    "vremeIliDuzina" : "3:09.87",
+    "pol" : "O"
+}

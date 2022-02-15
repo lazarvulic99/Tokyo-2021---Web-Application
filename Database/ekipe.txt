@@ -1,0 +1,13 @@
+/* 1 */
+{
+    "_id" : ObjectId("61291499de624553ac8be80f"),
+    "clanovi" : [ 
+        "Novak Djokovic", 
+        "David Jevremovic"
+    ],
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "pol" : "M",
+    "zemlja" : "Serbia",
+    "__v" : 0
+}

@@ -1,0 +1,1155 @@
+/* 1 */
+{
+    "_id" : ObjectId("6119673742844e43278d5de8"),
+    "sport" : "Kosarka",
+    "disciplina" : "Kosarka",
+    "pol" : "M",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja kos razlika. Rezultat u obliku poeniTim1:poeniTim2",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6119673742844e43278d5deb"),
+    "sport" : "Kosarka",
+    "disciplina" : "Kosarka",
+    "pol" : "Z",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja kos razlika. Rezultat u obliku poeniTim1:poeniTim2",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6119673742844e43278d5dee"),
+    "sport" : "Odbojka",
+    "disciplina" : "Odbojka",
+    "pol" : "M",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja set razlika. Rezultati setova u obliku 3:0, 3:1, 3:2 ili obrnuto",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6119673742844e43278d5df1"),
+    "sport" : "Odbojka",
+    "disciplina" : "Odbojka",
+    "pol" : "Z",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja set razlika. Rezultati setova u obliku 3:0, 3:1, 3:2 ili obrnuto",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6119673742844e43278d5df4"),
+    "sport" : "Vaterpolo",
+    "disciplina" : "Vaterpolo",
+    "pol" : "M",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja kos razlika. Rezultat u obliku poeniTim1:poeniTim2",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6119673742844e43278d5df7"),
+    "sport" : "Vaterpolo",
+    "disciplina" : "Vaterpolo",
+    "pol" : "Z",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "2 grupe od po 6 tima, svako sa svakim; Slede 1/4 finala, 1/2 finala, finale i mec za 3.mesto; Ukrstaju se A1-B4 sa B2-A3, i B1-A4 sa A2-B3; Pobeda 2 boda, poraz 1 bod; U slucaju istog broja poena gleda se bolja kos razlika. Rezultat u obliku poeniTim1:poeniTim2",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6119673742844e43278d5dfa"),
+    "sport" : "Atletika",
+    "disciplina" : "100 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Olympic Stadium"
+    ],
+    "format" : "/",
+    "delegat" : [ 
+        "Jana Zivkovic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6119673742844e43278d5dfd"),
+    "sport" : "Atletika",
+    "disciplina" : "100 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e00"),
+    "sport" : "Atletika",
+    "disciplina" : "200 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e03"),
+    "sport" : "Atletika",
+    "disciplina" : "200 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e06"),
+    "sport" : "Atletika",
+    "disciplina" : "400 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e09"),
+    "sport" : "Atletika",
+    "disciplina" : "400 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e0c"),
+    "sport" : "Atletika",
+    "disciplina" : "800 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e0f"),
+    "sport" : "Atletika",
+    "disciplina" : "800 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e12"),
+    "sport" : "Atletika",
+    "disciplina" : "5000 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e15"),
+    "sport" : "Atletika",
+    "disciplina" : "5000 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e18"),
+    "sport" : "Atletika",
+    "disciplina" : "10000 metara trcanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e1b"),
+    "sport" : "Atletika",
+    "disciplina" : "10000 metara trcanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 takmicara u finalnoj trci; vreme u obliku minuti:sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e1e"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Yoyogi National Stadium", 
+        "Ariake Arena", 
+        "Ariake Gymnastics Centre", 
+        "Tokyo Metropolitan Gymnasium"
+    ],
+    "format" : "/",
+    "delegat" : [ 
+        "Jana Zivkovic", 
+        "Bojana Kremic", 
+        "Bane Ilic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [ 
+        27
+    ],
+    "formirano" : 1
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e21"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e24"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e27"),
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e2a"),
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-25",
+    "datumKraja" : "",
+    "vremePocetka" : "00:00",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Ariake Urban Sports Park", 
+        "Tokyo Metropolitan Gymnasium"
+    ],
+    "format" : "U finalu do 8 takmicara. Skace se u 3 kruga, rezultat u obliku metar,centimetar.",
+    "delegat" : [ 
+        "Vesna Vulic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 1
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e2d"),
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e30"),
+    "sport" : "Atletika",
+    "disciplina" : "skok s motkom",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e33"),
+    "sport" : "Atletika",
+    "disciplina" : "skok s motkom",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; skok format metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e36"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e39"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e3c"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e3f"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e42"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e45"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e48"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e4b"),
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 takmicara u finalu; izbacaji formata metri,santimetri; postoje 3 kruga",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e4e"),
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-14",
+    "datumKraja" : "2021-08-21",
+    "vremePocetka" : "11:00",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Ariake Arena"
+    ],
+    "format" : "Svi ucestvuju u istoj trci, format u obliku sati:minuti,sekunde",
+    "delegat" : [ 
+        "Lazar Vulic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [ 
+        2, 
+        28, 
+        40
+    ],
+    "formirano" : 1
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e51"),
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "1 trka, 8 takmicara u finalu; rezultat oblika sati:minuti:sekunde",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e54"),
+    "sport" : "Atletika",
+    "disciplina" : "20km brzo hodanje",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "1 trka, 8 takmicara u finalu; rezultat oblika sati:minuti:sekunde",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e57"),
+    "sport" : "Atletika",
+    "disciplina" : "50km brzo hodanje",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "1 trka, 8 takmicara u finalu; rezultat oblika sati:minuti:sekunde",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e5a"),
+    "sport" : "Biciklizam",
+    "disciplina" : "drumska trka 225km",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Svi u istoj trci, rang po konacnom vremenu",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e5d"),
+    "sport" : "Biciklizam",
+    "disciplina" : "drumska trka 225km",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Svi u istoj trci, rang po konacnom vremenu",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e60"),
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-05",
+    "datumKraja" : "2021-08-05",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Ariake Gymnastics Centre", 
+        "Ariake Urban Sports Park"
+    ],
+    "format" : "Svi ucestvuju u istoj trci, vreme u obliku SS,TT.",
+    "delegat" : [ 
+        "Bojana Kremic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [ 
+        8, 
+        9, 
+        10, 
+        11, 
+        13, 
+        15, 
+        63, 
+        64
+    ],
+    "formirano" : 1
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e63"),
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-05",
+    "datumKraja" : "",
+    "vremePocetka" : "22:00",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Ariake Urban Sports Park"
+    ],
+    "format" : "8 u finalu, vreme sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e66"),
+    "sport" : "Plivanje",
+    "disciplina" : "200m slobodno",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-02",
+    "datumKraja" : "",
+    "vremePocetka" : "19:15",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Equestrian Park"
+    ],
+    "format" : "Svi takmicari plivaju u istom trenutku. Rezultat se meri u hh:mm:ss.",
+    "delegat" : [ 
+        "Vesna Vulic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 1
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e69"),
+    "sport" : "Plivanje",
+    "disciplina" : "200m slobodno",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "8 u finalu, vreme sec,stotinke",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e6c"),
+    "sport" : "Streljastvo",
+    "disciplina" : "50m trostav",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-30",
+    "datumKraja" : "2021-08-10",
+    "vremePocetka" : "15:03",
+    "vremeKraja" : "",
+    "lokacije" : [ 
+        "Mushashino Forest Sport Plaza", 
+        "Tokyo Stadium"
+    ],
+    "format" : "Finalna runda sa 8 takmicara; Gadja se 6 serija, gleda se broj pogodjenih krugova; rangiranje po najboljoj rundi.",
+    "delegat" : [ 
+        "Vesna Vulic", 
+        "Bane Ilic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 1
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e6f"),
+    "sport" : "Streljastvo",
+    "disciplina" : "50m trostav",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e72"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e75"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e78"),
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalib. pistolj",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e7b"),
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalib. pistolj",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e7e"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e81"),
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "Max 8 u finalu; 6 serija u finalu, rezultat svake serije broj pogodjenih krugova; rezultati se unose seriju po seriju; rangiranje po najvecem broju pogodjenih krugova",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e87"),
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "Z",
+    "tip" : "i",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "4, 8 ili 16 tenisera rangiranih poput nosioca, tako da se 1. i 2. nosioc ne mogu sresti pre finala, isto tako i 3. i 4. nosioc, 5. i 6. itd...Eliminacioni mecevi sve do meca za 3.mesto i finale. Igra se u 2 dobijena seta.",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e8a"),
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "pol" : "M",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "4, 8 ili 16 tenisera rangiranih poput nosioca, tako da se 1. i 2. nosioc ne mogu sresti pre finala, isto tako i 3. i 4. nosioc, 5. i 6. itd...Eliminacioni mecevi sve do meca za 3.mesto i finale. Igra se u 2 dobijena seta.",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("6119673742844e43278d5e8d"),
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "pol" : "Z",
+    "tip" : "e",
+    "datumPocetka" : "",
+    "datumKraja" : "",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "lokacije" : [],
+    "format" : "4, 8 ili 16 tenisera rangiranih poput nosioca, tako da se 1. i 2. nosioc ne mogu sresti pre finala, isto tako i 3. i 4. nosioc, 5. i 6. itd...Eliminacioni mecevi sve do meca za 3.mesto i finale. Igra se u 2 dobijena seta.",
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "formirano" : 0
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("61196935e79d8d4078a51fc6"),
+    "lokacije" : [ 
+        "Olympic Stadium"
+    ],
+    "delegat" : [],
+    "ekipe" : [],
+    "takmicari" : [],
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalib.pistolj",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-11",
+    "datumKraja" : "2021-08-11",
+    "format" : "U finalu do 8 takmicara. Gadja se u 6 serija, za svaku seriju se broji broj pogodjenih krugova. Rangiranje po najboljem krugu gadjanja.",
+    "vremePocetka" : "",
+    "vremeKraja" : "",
+    "__v" : 0,
+    "formirano" : 1
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("612913fede624553ac8be80d"),
+    "lokacije" : [ 
+        "Yoyogi National Stadium", 
+        "Tokyo Metropolitan Gymnasium"
+    ],
+    "delegat" : [ 
+        "Jana Zivkovic", 
+        "Lazar Vulic"
+    ],
+    "ekipe" : [],
+    "takmicari" : [ 
+        1, 
+        45, 
+        49, 
+        50, 
+        52, 
+        48, 
+        47, 
+        43
+    ],
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "pol" : "M",
+    "tip" : "i",
+    "datumPocetka" : "2021-08-08",
+    "datumKraja" : "2021-08-12",
+    "format" : "Mora da ucestvuje 4,8 ili 16 takmicara; rezultat u obliku A:B, igra se u 2 dobijena seta.",
+    "vremePocetka" : "09:45",
+    "vremeKraja" : "",
+    "formirano" : 1,
+    "__v" : 0
+}

@@ -1,0 +1,133 @@
+/* 1 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce46b"),
+    "naziv" : "Olympic Stadium",
+    "sportovi" : [ 
+        "Atletika", 
+        "Fudbal"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce46e"),
+    "naziv" : "Tokyo Metropolitan Gymnasium",
+    "sportovi" : [ 
+        "Stoni tenis"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce471"),
+    "naziv" : "Yoyogi National Stadium",
+    "sportovi" : [ 
+        "Rukomet"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce474"),
+    "naziv" : "Nippon Budokan",
+    "sportovi" : [ 
+        "Dzudo", 
+        "Karate"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce477"),
+    "naziv" : "Tokyo International Forum",
+    "sportovi" : [ 
+        "Dizanje tegova"
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce47a"),
+    "naziv" : "Kokugikan Arena",
+    "sportovi" : [ 
+        "Boks"
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce47d"),
+    "naziv" : "Equestrian Park",
+    "sportovi" : [ 
+        "Equestrian"
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce480"),
+    "naziv" : "Mushashino Forest Sport Plaza",
+    "sportovi" : [ 
+        "Badmintom", 
+        "Moderni pentatlon"
+    ]
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce483"),
+    "naziv" : "Tokyo Stadium",
+    "sportovi" : [ 
+        "Ragbi", 
+        "Moderni pentatlon", 
+        "Fudbal"
+    ]
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce486"),
+    "naziv" : "Mushashinonomori Park",
+    "sportovi" : [ 
+        "Biciklizam"
+    ]
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce489"),
+    "naziv" : "Ariake Arena",
+    "sportovi" : [ 
+        "Odbojka"
+    ]
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce48c"),
+    "naziv" : "Ariake Gymnastics Centre",
+    "sportovi" : [ 
+        "Umetnicka gimnastika", 
+        "Ritmicka gimnastika", 
+        "Gimnastika na trambolini"
+    ]
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce48f"),
+    "naziv" : "Ariake Urban Sports Park",
+    "sportovi" : [ 
+        "Atletika", 
+        "Fudbal"
+    ]
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6116b03842844e43278ce492"),
+    "naziv" : "Tokyo Metropolitan Gymnasium",
+    "sportovi" : [ 
+        "Stoni tenis"
+    ]
+}

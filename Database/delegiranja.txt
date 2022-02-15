@@ -1,0 +1,121 @@
+/* 1 */
+{
+    "_id" : ObjectId("61184e3e42844e43278d3400"),
+    "kor_ime" : "jana",
+    "ime" : "Jana",
+    "prezime" : "Zivkovic",
+    "broj" : 2,
+    "discipline" : [ 
+        "skok u vis", 
+        "singl"
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61184e7e42844e43278d341f"),
+    "kor_ime" : "lazar",
+    "ime" : "Lazar",
+    "prezime" : "Vulic",
+    "broj" : 2,
+    "discipline" : [ 
+        "maraton", 
+        "singl"
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61184eeb42844e43278d3456"),
+    "kor_ime" : "bojana",
+    "ime" : "Bojana",
+    "prezime" : "Kremic",
+    "broj" : 2,
+    "discipline" : [ 
+        "skok u vis", 
+        "100m leptir"
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61184f2842844e43278d3470"),
+    "kor_ime" : "vesna",
+    "ime" : "Vesna",
+    "prezime" : "Vulic",
+    "broj" : 3,
+    "discipline" : [ 
+        "troskok", 
+        "200m slobodno", 
+        "50m trostav"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6118e75476b6df2bf0214a1e"),
+    "discipline" : [ 
+        "50m trostav", 
+        "skok u vis"
+    ],
+    "kor_ime" : "bane",
+    "ime" : "Bane",
+    "prezime" : "Ilic",
+    "broj" : 2,
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("611acfc4f1d39c0cd0576a47"),
+    "discipline" : [],
+    "kor_ime" : "jakov",
+    "ime" : "Jakov",
+    "prezime" : "Ignjatovic",
+    "broj" : 0,
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("611acfd6f1d39c0cd0576a49"),
+    "discipline" : [],
+    "kor_ime" : "vidan",
+    "ime" : "Vidan",
+    "prezime" : "Petrovic",
+    "broj" : 0,
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("611d74f57f462d595c597f44"),
+    "discipline" : [],
+    "kor_ime" : "niagara",
+    "ime" : "Niagara",
+    "prezime" : "Vodopad",
+    "broj" : 0,
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("612103ab7ef01c1f08b1cce5"),
+    "discipline" : [],
+    "kor_ime" : "vaskez",
+    "ime" : "Vasilisa",
+    "prezime" : "Buric",
+    "broj" : 0,
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6126b16a51808f4a70ae9528"),
+    "discipline" : [],
+    "kor_ime" : "pedro",
+    "ime" : "Pedro",
+    "prezime" : "Barbosa",
+    "broj" : 0,
+    "__v" : 0
+}
