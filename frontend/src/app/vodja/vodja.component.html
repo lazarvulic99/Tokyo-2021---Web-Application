@@ -1,0 +1,242 @@
+<header class="myHeader">
+    <div>
+        <div class="oneRow">
+            <div class="naziv">TOKYO</div>
+        </div>
+        <div class="oneRow">
+            <div class="slogan">Faster, higher, stronger - Together</div>
+        </div>
+    </div>
+</header>
+<ul>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Pregled</a>
+        <div class="dropdown-content">
+            <a href="vodja#brojTakmicara">Broja takmicara</a>
+            <a href="vodja#poSportovima">Po sportovima</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Prijava i unos</a>
+        <div class="dropdown-content">
+            <a href="vodja#prijavaSportista">Sportista</a>
+            <a href="vodja#prijavaEkipa">Ekipa</a>
+        </div>
+    </li>
+    <li><a routerLink='/homepage'>Odjavi se</a></li>
+</ul>
+<h2 class="pregledBroja" id="brojTakmicara">Pregled broja takmicara: </h2>
+<div class="pregledBrojaTakmicara">
+    <table class="tabelaPregledBroja" *ngIf='mojiSportovi'>
+        <tr>
+            <td colspan="2">Ukupan broj takmicara: <b>{{ukupanBroj}}</b></td>
+        </tr>
+        <tr>
+            <th>Sport</th>
+            <th>Broj Sportista</th>
+        </tr>
+        <tr *ngFor='let s of mojiSportovi'>
+            <td style="text-align: center;">{{s.sport}}</td>
+            <td style="text-align: center;">[{{s.brojTakmicara}}]</td>
+        </tr>
+    </table>
+</div>
+<hr class="hrStyle">
+<h2 class="pregledPoSportu" id="poSportovima">Pregled sportista: </h2>
+<div class="pregledTakmPoSportu">
+    <div>
+        <table class="tabelaUnos">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sport:</td>
+                <td>
+                    <select class="prviInput" (click)='vratiTrazeneDisc() ' name='sport ' [(ngModel)]='sportistiSport'>
+                        <option selected>Svi sportovi</option>
+                        <option *ngFor='let s of mojiSportovi '>{{s.sport}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Disciplina:</td>
+                <td>
+                    <select class="prviInput" name='disciplina ' [(ngModel)]='sportistiDisciplina'>
+                        <option selected>Sve discipline</option>
+                        <option *ngFor='let d of disciplineSportisti '>{{d.disciplina}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan='2 '>
+                    <button class="button" (click)='pretraziSportiste()'>Pretraga</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf='pronadjeniSportisti.length > 0'>
+        <table class="pretragaSportista">
+            <thead>
+                <tr>
+                    <th>Ime i prezime</th>
+                    <th>Pol</th>
+                    <th>Sport</th>
+                    <th>Discipline</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let s of pronadjeniSportisti">
+                    <td>
+                        {{s.imeIPrezime}}
+                    </td>
+                    <td>
+                        {{s.pol}}
+                    </td>
+                    <td>
+                        {{s.sport}}
+                    </td>
+                    <td>
+                        {{s.discipline}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="greska" *ngIf='porukaPretraga'>
+        {{porukaPretraga}}
+    </div>
+</div>
+<hr>
+<h2 class="unosSporta" id="prijavaSportista">Unos sportiste i prijava: </h2>
+<div class="prijavaSportista">
+    <table class="tabelaPrijavaSportista">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Ime:</td>
+            <td>
+                <input class="prviInput" type='text' name='ime' [(ngModel)]='ime'>
+            </td>
+        </tr>
+        <tr>
+            <td>Prezime:</td>
+            <td>
+                <input class="prviInput" type='text' name='prezime' [(ngModel)]='prezime'>
+            </td>
+        </tr>
+        <tr>
+            <td>Pol:</td>
+            <td>
+                <input type="radio" name="pol" value="M" [(ngModel)]='pol'>M
+                <input type="radio" name="pol" value="Z" [(ngModel)]='pol'>Z
+            </td>
+        </tr>
+        <tr>
+            <td>Sport:</td>
+            <td>
+                <select class="prviInput" (click)='nadjiDiscipline()' name='sport' [(ngModel)]='sport'>
+                    <option [ngValue]="undefined" selected disabled>Odaberi sport</option>
+                    <option *ngFor='let s of sportovi'>{{s.sport}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Disciplina:</td>
+            <td>
+                <select class="prviInput" name='disciplina' [(ngModel)]='disciplina' multiple>
+                    <option [ngValue]="undefined" selected disabled>Odaberi disciplinu</option>
+                    <option *ngFor='let d of discipline'>{{d.disciplina}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan='2'>
+                <button class="button" (click)='dodaj()'>Dodaj sportistu</button>
+            </td>
+        </tr>
+    </table>
+    <div class="greska" *ngFor='let p of poruka'>
+        {{p}}
+    </div>
+    <div *ngIf='porukaDodavanje' class='greska'>
+        {{porukaDodavanje}}
+    </div>
+</div>
+<hr class="hrStyle">
+<h2 class="formiranjeEkipe" id="prijavaEkipa">Formiranje i prijava ekipe: </h2>
+<div class="prijavaEkipe">
+    <table class="tabelaPrijavaEkipe">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sport:</td>
+            <td>
+                <input class="prviInput" type="text" name="ekipniSport" [(ngModel)]='ekipniSport'>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <button class="button" (click)='nadjiEkipneDiscipline()'>Trazi discipline</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Disciplina:</td>
+            <td>
+                <select class="prviInput" name='ekipnaDisciplina' [(ngModel)]='ekipnaDisciplina'>
+                    <option [ngValue]="undefined" selected disabled>Odaberi disciplinu</option>
+                    <option *ngFor='let ed of ekipneDiscipline'>{{ed.disciplina}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Pol:</td>
+            <td>
+                <input type="radio" name="ekipniPol" value="M" [(ngModel)]='ekipniPol'>M
+                <input type="radio" name="ekipniPol" value="Z" [(ngModel)]='ekipniPol'>Z
+            </td>
+        </tr>
+        <tr>
+            <td>Takmicari:</td>
+            <td>
+                <select class="prviInput" name='sportisti' [(ngModel)]='prijavljeniClanovi' multiple>
+                    <option [ngValue]="undefined" selected disabled>Odaberi clanove</option>
+                    <option *ngFor='let s of sportistiZaEkipu'>{{s.imeIPrezime}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button1" (click)='dohvatiTakmicare()'>Dohvati takmicare</button>
+            </td>
+            <td>
+                <button class="button1" (click)='prijaviEkipu()'>Prijavi ekipu</button>
+            </td>
+        </tr>
+    </table>
+    <div *ngIf='porukaEkipa' class="greska">
+        {{porukaEkipa}}
+    </div>
+</div>
+<div class="myFooter">
+    Lazar Vulic - All rights reserved &copy;
+</div>
