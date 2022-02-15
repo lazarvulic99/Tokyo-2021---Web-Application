@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hrStyle {
+    border: 3px solid #ff6c6c;
+    border-radius: 2px;
+}
+
+.oneRow {
+    display: inline-block;
+    margin: 5px;
+}
+
+.naziv {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.slogan {
+    text-align: right;
+    margin-left: 100px;
+    font-size: smaller;
+}
+
+.centriraj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myHeader {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #539741e8;
+    background-image: url(/assets/smallLogo.png);
+    background-position: left;
+    background-size: 5%;
+    background-repeat: no-repeat;
+}
+
+.nikoNeCeka {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.greska {
+    padding: 5px;
+    width: 380px;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 37.2%;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(255, 131, 131, 0.342);
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(192, 187, 233);
+}
+
+li {
+    display: inline-block;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(199, 193, 255);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.muski,
+.zenski,
+.mesoviti,
+.sportIDisciplina,
+.unosTakm {
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.table td,
+.table th {
+    border: 1px solid rgb(176, 208, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.table tr:hover {
+    background-color: rgb(255, 224, 224);
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff6c6c;
+    color: rgb(0, 0, 0);
+}
+
+.tabelaUnos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid rgb(194, 194, 194);
+    width: 32%;
+    margin-left: 34%;
+    background-color: rgb(230, 225, 225);
+}
+
+.tabelaTakmicenje {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid rgb(194, 194, 194);
+    margin-left: 35%;
+    width: 30%;
+    background-color: rgb(230, 225, 225);
+}
+
+.prviInput {
+    width: 210px;
+}
+
+.drugiInput {
+    width: 300px;
+}
+
+.tabelaUnos td,
+.tabelaUnos th,
+.tabelaTakmicenje td,
+.tabelaTakmicenje th {
+    padding: 2px;
+    text-align: left;
+}
+
+.muskiSpisak,
+.zenskiSpisak,
+.mesovitiSpisak,
+.unosSportaIDisc {
+    border: 2px solid #6ec8e4;
+    text-align: center;
+    justify-content: center;
+}
+
+.unosTakmicenja {
+    border: 2px solid #6ec8e4;
+}
+
+.button {
+    background-color: #ff6c6c;
+    border: black 1px solid;
+    color: black;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.myFooter {
+    position: relative;
+    background-color: rgb(192, 187, 233);
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+}
+
+.greska {
+    padding: 5px;
+    width: 380px;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 37.2%;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(255, 131, 131, 0.342);
+    text-align: center;
+}
