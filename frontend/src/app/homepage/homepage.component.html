@@ -1,0 +1,383 @@
+<header class="myHeader">
+    <div>
+        <div class="oneRow">
+            <div class="naziv">TOKYO</div>
+        </div>
+        <div class="oneRow">
+            <div class="slogan">Faster, higher, stronger - Together</div>
+        </div>
+    </div>
+</header>
+<ul>
+    <li><a href="#zemlje">Zemlje ucesnice</a></li>
+    <li><a href="#medalje">Medalje zemalja</a></li>
+    <li><a href="#searchSportiste">Pretraga sportista</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Korisnicke opcije</a>
+        <div class="dropdown-content">
+            <a routerLink="/prijava">Prijava na sistem</a>
+            <a routerLink="/promenaLozinke">Promena lozinke</a>
+            <a routerLink="/registracija">Registracija</a>
+        </div>
+    </li>
+</ul>
+<h2 class="naziv">Zemlje ucesnice:</h2>
+<div class="zemljeSpisak" id="zemlje">
+    <div class="option" *ngIf='zemlje.length > 10'>
+        Broj elemenata po stranici: <select [(ngModel)]='itemsPerPage1'>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <div *ngIf='zemlje.length > 10 ; else nemaPaginacijeZemalja'>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Zastava zemlje</th>
+                    <th>Ime zemlje</th>
+                    <th>Broj sportista</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let z of zemlje | paginate: {itemsPerPage:itemsPerPage1,currentPage:p1, id: 'first'};">
+                    <td style="text-align: center; width: 10%;">
+                        <img width='54px' height='36px' src='assets/{{z.skracenica}}.png'>
+                    </td>
+                    <td style="text-align: center; width: 30%;">
+                        {{z.zemlja}}
+                    </td>
+                    <td style="text-align: center; width: 10%;">
+                        {{z.brojSportista}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="paginationStyle1">
+            <pagination-controls style="text-align: left; width: 100px" (pageChange)="p1 = $event" id="first"></pagination-controls>
+        </div>
+    </div>
+    <ng-template #nemaPaginacijeZemalja>
+        <table class="table">
+            <tr>
+                <th>Zastava zemlje</th>
+                <th>Ime zemlje</th>
+                <th>Broj sportista</th>
+            </tr>
+            <tr *ngFor='let z of zemlje'>
+                <td style="text-align: center; width: 10%;">
+                    <img width='54px' height='36px' src='assets/{{z.skracenica}}.png'>
+                </td>
+                <td style="text-align: center; width: 30%;">
+                    {{z.zemlja}}
+                </td>
+                <td style="text-align: center; width: 10%;">
+                    {{z.brojSportista}}
+                </td>
+            </tr>
+        </table>
+    </ng-template>
+</div>
+<hr class="hrStyle">
+<h2 class="naziv">Pregled osvojenih medalja: </h2>
+<div class="medaljeSpisak" id="medalje">
+    <div class="option" *ngIf='medaljeFront.length > 10 || medaljePoZemljama.length > 10'>
+        Broj elemenata po stranici: <select [(ngModel)]=' itemsPerPage2 '>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <br>
+    <button class="button" (click)='poKvalitetu() '>Rang po kvalitetu medalja</button>
+    <button class="button" (click)='poUkupnom() '>Rang po ukupnom broju medalja</button>
+    <div *ngIf='medaljeFront.length > 10 ; else nemaPaginacijeMedaljaFront'>
+        <table class="table2" *ngIf='rangPoUkupnomBroju==0 '>
+            <thead>
+                <tr>
+                    <th>Rang</th>
+                    <th>Ime zemlje</th>
+                    <th>Broj zlatnih medalja</th>
+                    <th>Broj srebrnih medalja</th>
+                    <th>Broj bronzanih medalja</th>
+                    <th>Ukupan broj medalja</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let m of medaljeFront | paginate: {itemsPerPage:itemsPerPage2,currentPage:p2, id:'second'}; ">
+                    <td style="text-align: center; width: 3%;">
+                        {{m.rang}}
+                    </td>
+                    <td style="text-align: center; width: 35%;">
+                        {{m.zemlja}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojZlatnih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojSrebrnih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojBronzanih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.ukupno}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div *ngIf='rangPoUkupnomBroju==0 ' class="paginationStyle2">
+            <pagination-controls style="text-align: left; width: 200px" (pageChange)="p2 = $event" id="second"></pagination-controls>
+        </div>
+    </div>
+    <ng-template #nemaPaginacijeMedaljaFront>
+        <table class="table2" *ngIf='rangPoUkupnomBroju == 0'>
+            <tr>
+                <th>Rang</th>
+                <th>Ime zemlje</th>
+                <th>Broj zlatnih medalja</th>
+                <th>Broj srebrnih medalja</th>
+                <th>Broj bronzanih medalja</th>
+                <th>Ukupan broj medalja</th>
+            </tr>
+            <tr *ngFor='let m of medaljeFront'>
+                <td style="text-align: center; width: 3%;">
+                    {{m.rang}}
+                </td>
+                <td style="text-align: center; width: 35%;">
+                    {{m.zemlja}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojZlatnih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojSrebrnih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojBronzanih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.ukupno}}
+                </td>
+            </tr>
+        </table>
+    </ng-template>
+    <div *ngIf='medaljePoZemljama.length > 10 ; else nemaPaginacijeMedaljaPoZemljama'>
+        <table class="table2" *ngIf='rangPoUkupnomBroju==1 '>
+            <thead>
+                <tr>
+                    <th>Rang</th>
+                    <th>Ime zemlje</th>
+                    <th>Broj zlatnih medalja</th>
+                    <th>Broj srebrnih medalja</th>
+                    <th>Broj bronzanih medalja</th>
+                    <th>Ukupan broj medalja</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let m of medaljePoZemljama | paginate: {itemsPerPage:itemsPerPage2,currentPage:p2, id:'second'}; ">
+                    <td style="text-align: center; width: 3%;">
+                        {{m.ranking}}
+                    </td>
+                    <td style="text-align: center; width: 35%;">
+                        {{m.zemlja}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojZlatnih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojSrebrnih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.brojBronzanih}}
+                    </td>
+                    <td style="text-align: center; width: 3%;">
+                        {{m.ukupno}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div *ngIf='rangPoUkupnomBroju == 1' class="paginationStyle2">
+            <pagination-controls style="text-align: left; width: 200px" (pageChange)="p2 = $event" id="second"></pagination-controls>
+        </div>
+    </div>
+    <ng-template #nemaPaginacijeMedaljaPoZemljama>
+        <table class="table2" *ngIf='rangPoUkupnomBroju == 1'>
+            <tr>
+                <th>Rang</th>
+                <th>Ime zemlje</th>
+                <th>Broj zlatnih medalja</th>
+                <th>Broj srebrnih medalja</th>
+                <th>Broj bronzanih medalja</th>
+                <th>Ukupan broj medalja</th>
+            </tr>
+            <tr *ngFor='let m of medaljePoZemljama'>
+                <td style="text-align: center; width: 3%;">
+                    {{m.ranking}}
+                </td>
+                <td style="text-align: center; width: 35%;">
+                    {{m.zemlja}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojZlatnih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojSrebrnih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.brojBronzanih}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{m.ukupno}}
+                </td>
+            </tr>
+        </table>
+    </ng-template>
+</div>
+<hr class="hrStyle">
+<h2 style="text-decoration: underline; margin-left: 5%;">Pretraga sportista:</h2>
+<div class="sportistiSpisak" id="searchSportiste">
+    <div>
+        <table class="tabelaPretraga">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ime i prezime:</td>
+                <td>
+                    <input class="inputType1" type='text' placeholder="Ime i prezime" name='imeIPrezime ' [(ngModel)]='imeIPrezime '>
+                </td>
+            </tr>
+            <tr>
+                <td>Zemlja:</td>
+                <td>
+                    <select class="inputType1" name='zemlja ' [(ngModel)]='zemlja '>
+                        <option [ngValue]="undefined" selected>Sve zemlje</option>
+                        <option *ngFor='let z of zemlje '>{{z.zemlja}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sport:</td>
+                <td>
+                    <select class="inputType1" (click)='nadjiDiscipline() ' name='sport ' [(ngModel)]='sport '>
+                        <option [ngValue]="undefined" selected>Svi sportovi</option>
+                        <option *ngFor='let s of sportovi '>{{s.sport}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Disciplina:</td>
+                <td>
+                    <select class="inputType1" name='disciplina ' [(ngModel)]='disciplina '>
+                        <option [ngValue]="undefined" selected>Sve sportske discipline</option>
+                        <option *ngFor='let d of discipline '>{{d.disciplina}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pol:</td>
+                <td>
+                    <input type="radio" id="male" name="pol" value="M" [(ngModel)]='pol' (click)='proveri(0)'>M
+                    <input type="radio" id="female" name="pol" value="Z" [(ngModel)]='pol' (click)='proveri(1)'>Z
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="medalje" value="1" [(ngModel)]='medalje '>Samo osvajaci medalja
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan='2 '>
+                    <button class="button" (click)='pretraga() '>Pretraga</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        Broj elemenata po stranici: <select [(ngModel)]=' itemsPerPage3 '>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <div *ngIf='sportisti.length > 10; else nemaPaginacije'>
+        <table class="table3">
+            <thead>
+                <tr>
+                    <th>Ime i prezime</th>
+                    <th>Pol</th>
+                    <th>Zemlja</th>
+                    <th>Sport</th>
+                    <th>Discipline</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let s of sportisti | paginate: {itemsPerPage:itemsPerPage3,currentPage:p3, id:'third'}; ">
+                    <td style="text-align: center; width: 10%;">
+                        {{s.imeIPrezime}}
+                    </td>
+                    <td style="text-align: center; width: 2%;">
+                        {{s.pol}}
+                    </td>
+                    <td style="text-align: center; width: 10%;">
+                        {{s.nacionalnost}}
+                    </td>
+                    <td style="text-align: center; width: 8%;">
+                        {{s.sport}}
+                    </td>
+                    <td style="text-align: center; width: 40%;">
+                        {{s.discipline}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="paginationStyle3">
+            <pagination-controls style="text-align: left; width: 100px;" (pageChange)="p3 = $event" id="third"></pagination-controls>
+        </div>
+    </div>
+    <ng-template #nemaPaginacije>
+        <table class="table3">
+            <tr>
+                <th>Ime i prezime</th>
+                <th>Pol</th>
+                <th>Zemlja</th>
+                <th>Sport</th>
+                <th>Discipline</th>
+            </tr>
+            <tr *ngFor='let s of sportisti'>
+                <td style="text-align: center; width: 10%;">
+                    {{s.imeIPrezime}}
+                </td>
+                <td style="text-align: center; width: 3%;">
+                    {{s.pol}}
+                </td>
+                <td style="text-align: center; width: 15%;">
+                    {{s.nacionalnost}}
+                </td>
+                <td style="text-align: center; width: 8%;">
+                    {{s.sport}}
+                </td>
+                <td style="text-align: center; width: 35%;">
+                    {{s.discipline}}
+                </td>
+            </tr>
+        </table>
+    </ng-template>
+</div>
+<div *ngIf='poruka ' class='greska '>
+    {{poruka}}
+</div>
+<div class="myFooter">
+    Lazar Vulic - All rights reserved &copy;
+</div>
